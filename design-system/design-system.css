@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Kanit, sans-serif;
+}
+
+body {
+  background-color: #7ac7ce;
+  display: flex;
+  gap: 1rem;
+}
+body section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+  width: 33%;
+}
+body section div {
+  background-color: #fefefe;
+  border-radius: 5px;
+  box-shadow: 2px 1px 10px #999;
+  display: flex;
+  padding: 10px;
+}
+body section div h1 {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #9a6aff;
+}
+body .column1 {
+  margin-left: 10px;
+  padding: 30px 0 0 30px;
+}
+body .column1 .logos,
+body .column1 .brand-colors,
+body .column1 .button-styles {
+  height: 25vh;
+  width: 100%;
+}
+body .column2 {
+  margin-left: 10px;
+  padding: 30px 0 0 0;
+}
+body .column2 .typography,
+body .column2 .form-fields {
+  height: 25vh;
+  width: 100%;
+}
+body .column2 .icons {
+  height: 12.5vh;
+  width: 100%;
+}
+body .column3 {
+  margin-left: 10px;
+  padding: 30px 30px 0 0;
+}
+body .column3 .components {
+  height: 95vh;
+}/*# sourceMappingURL=design-system.css.map */
