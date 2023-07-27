@@ -40,6 +40,17 @@ body .column1 .button-styles {
   height: 25vh;
   width: 100%;
 }
+body .logos {
+  flex-direction: column;
+}
+body .logos h1 {
+  padding-bottom: 15px;
+}
+body .logos p {
+  padding-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 550;
+}
 body .column2 {
   margin-left: 10px;
   padding: 30px 0 0 0;

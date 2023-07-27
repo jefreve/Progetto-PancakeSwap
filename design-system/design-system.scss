@@ -45,6 +45,23 @@ body {
     }
   }
 
+  .logos{
+    flex-direction: column;
+  }
+
+  .logos h1{
+    padding-bottom: 15px;
+  }
+
+  .logos p {
+    padding-bottom: 10px;
+   
+    font-size:1rem;
+    font-weight: 550;
+  }
+
+  
+
   .column2 {
     margin-left: 10px;
     padding: 30px 0 0 0;
