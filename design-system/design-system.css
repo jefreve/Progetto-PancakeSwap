@@ -134,6 +134,52 @@ body .column2 .form-fields {
   height: 25vh;
   width: 100%;
 }
+body .column2 .typography {
+  overflow: hidden;
+}
+body .column2 .fonts-container {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+body .column2 .main-banner-font {
+  font-family: "Kanit", sans-serif;
+  color: #9a6aff;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 64px;
+}
+body .column2 .other-banners-font {
+  font-family: "Kanit", sans-serif;
+  color: #f4eeff;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 64px;
+  text-shadow: 1px 1px 2px black;
+}
+body .column2 .various-pools-font {
+  color: #f4eeff;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 16px;
+  text-shadow: 1px 1px 2px black;
+}
+body .column2 .footer-font {
+  color: #f4eeff;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  text-shadow: 1px 1px 2px black;
+}
+body .column2 .paragraph {
+  color: #b8add2;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  display: inline;
+  text-shadow: 1px 1px 2px black;
+}
 body .column2 .icons {
   height: 12.5vh;
   width: 100%;
@@ -144,4 +190,6 @@ body .column3 {
 }
 body .column3 .components {
   height: 95vh;
-}/*# sourceMappingURL=design-system.css.map */
+}
+
+/*# sourceMappingURL=design-system.css.map */

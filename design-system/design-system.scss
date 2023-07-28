@@ -143,6 +143,56 @@ body {
       height: 25vh;
       width: 100%;
     }
+    .typography {
+      overflow: hidden;
+    }
+    .fonts-container {
+      overflow: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .main-banner-font {
+      font-family: "Kanit", sans-serif;
+      color: #9a6aff;
+      font-weight: 600;
+      line-height: 1.5;
+      font-size: 64px;
+    }
+
+    .other-banners-font {
+      font-family: "Kanit", sans-serif;
+      color: #f4eeff;
+      font-weight: 600;
+      line-height: 1.5;
+      font-size: 64px;
+      text-shadow: 1px 1px 2px black; //DA RIMUOVERE!!
+    }
+
+    .various-pools-font {
+      color: #f4eeff;
+      font-weight: 600;
+      line-height: 1.5;
+      font-size: 16px;
+      text-shadow: 1px 1px 2px black; //DA RIMUOVERE!!
+    }
+    .footer-font {
+      color: #f4eeff;
+      font-weight: 400;
+      line-height: 1.5;
+      font-size: 16px;
+      text-shadow: 1px 1px 2px black; //DA RIMUOVERE!!
+    }
+    .paragraph {
+      color: #b8add2;
+      font-weight: 400;
+      line-height: 1.5;
+      font-size: 16px;
+      display: inline;
+      text-shadow: 1px 1px 2px black; //DA RIMUOVERE!!
+    }
+
     .icons {
       height: 12.5vh;
       width: 100%;
