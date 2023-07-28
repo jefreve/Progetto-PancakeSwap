@@ -141,7 +141,8 @@ body .column2 .fonts-container {
   overflow: auto;
   display: flex;
   flex-direction: column;
-  gap: 0;
+  height: 100%;
+  width: 100%;
 }
 body .column2 .main-banner-font {
   font-family: "Kanit", sans-serif;

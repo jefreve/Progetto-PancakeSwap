@@ -150,7 +150,8 @@ body {
       overflow: auto;
       display: flex;
       flex-direction: column;
-      gap: 0;
+      height: 100%;
+      width: 100%;
     }
 
     .main-banner-font {
