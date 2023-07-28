@@ -40,6 +40,80 @@ body .column1 .button-styles {
   height: 25vh;
   width: 100%;
 }
+body .button-styles {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+body .button-styles p {
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 16px;
+  display: flex;
+  width: 100%;
+}
+body .button-styles #lead-title {
+  position: relative;
+  left: 12rem;
+  bottom: 8.75rem;
+}
+body .button-styles #top-button,
+body .button-styles #top-button-v2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  height: 2rem;
+  padding: 0 16px;
+  outline: 0;
+  background-color: #7ac7ce;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+  letter-spacing: 0.03rem;
+  line-height: 1;
+  opacity: 1;
+  box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px;
+}
+body .button-styles #lead-button,
+body .button-styles #predict-button {
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  height: 2rem;
+  padding: 0 24px;
+  outline: 0;
+  background-color: #7a6eaa;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+  letter-spacing: 0.03rem;
+  line-height: 1;
+  opacity: 1;
+  box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px;
+  width: 48px;
+  height: 48px;
+}
+body .button-styles #lead-button svg,
+body .button-styles #predict-button svg {
+  fill: white;
+  flex-shrink: 0;
+}
+body .button-styles #predict-button {
+  position: relative;
+  left: 13rem;
+  bottom: 9rem;
+}
+body .button-styles #lead-button {
+  position: relative;
+  left: 12.5rem;
+  bottom: 9rem;
+}
 body .logos {
   flex-direction: column;
 }
