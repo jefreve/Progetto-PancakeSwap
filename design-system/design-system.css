@@ -10,21 +10,21 @@ body {
   display: flex;
   gap: 1rem;
 }
-body section {
+body .column-container {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   height: 100%;
   width: 33%;
 }
-body section div {
+body .column-container .design-element {
   background-color: #fefefe;
   border-radius: 5px;
   box-shadow: 2px 1px 10px #999;
   display: flex;
   padding: 10px;
 }
-body section div h1 {
+body .column-container .design-element h1 {
   text-decoration: underline;
   text-underline-offset: 8px;
   text-decoration-thickness: 1px;
@@ -125,6 +125,133 @@ body .logos p {
   font-size: 1rem;
   font-weight: 550;
 }
+body .brand-colors {
+  display: flex;
+  flex-direction: column;
+}
+body .brand-colors h1 {
+  padding-bottom: 5px;
+}
+body .brand-colors .light-purple {
+  background: #9a6aff;
+}
+body .brand-colors .white-one {
+  background: #ffffff;
+  border: 0.5px solid rgb(174, 174, 174);
+}
+body .brand-colors .white-two {
+  background: #f4eeff;
+  border: 0.5px solid rgb(174, 174, 174);
+}
+body .brand-colors .light-blue {
+  background: #1ec7d3;
+}
+body .brand-colors .hot-pink {
+  background: #ed4b9e;
+}
+body .brand-colors .dark-purple-one {
+  background: #280d5f;
+}
+body .brand-colors .yellow {
+  background: #ffb237;
+}
+body .brand-colors .dark-grey {
+  background: #27262d;
+}
+body .brand-colors .dark-purple-two {
+  background: #191326;
+}
+body .brand-colors .dark-purple-three {
+  background: #08060b;
+}
+body .brand-colors .gradient-one {
+  background-image: linear-gradient(#8050d5, #4a2387);
+}
+body .brand-colors .gradient-two {
+  background-image: linear-gradient(#5a3d8d, #402767);
+}
+body .brand-colors .gradient-three {
+  background-image: linear-gradient(#8050d5, #201335);
+}
+body .brand-colors .gradient-four {
+  background-image: linear-gradient(#3b4054, #3a364b);
+}
+body .brand-colors .gradient-five {
+  background-image: linear-gradient(#0c4576, #081014);
+}
+body .brand-colors .gradient-six {
+  background-image: linear-gradient(#0c1d31, #090d14);
+}
+body .brand-colors .gradient-seven {
+  background-image: linear-gradient(#ffb237, #ffe76a);
+}
+body .brand-colors .gradient-eight {
+  background-image: linear-gradient(#7645d9, #5221b2);
+}
+body .brand-colors .gradient-nine {
+  background-image: linear-gradient(#444575, #65568d);
+}
+body .brand-colors .color-and-hex {
+  padding: 0 5px 0 0;
+}
+body .brand-colors .color-and-hex .color-box {
+  border-radius: 3px;
+  height: 1vw;
+  width: 3vw;
+}
+body .brand-colors .color-and-hex .gradient-box {
+  border-radius: 3px;
+  height: 1vw;
+  width: 3vw;
+}
+body .brand-colors .color-and-hex .hex-code {
+  font-size: calc(0.3rem + 0.3vw);
+  margin: 1px 0;
+}
+body .brand-colors .color-and-hex .gradient-from-hex-code {
+  font-size: calc(0.3rem + 0.3vw);
+  margin: 1px 0;
+}
+body .brand-colors .color-and-hex .gradient-to-hex-code {
+  font-size: calc(0.3rem + 0.3vw);
+  margin: 1px 0;
+}
+body .brand-colors .palette-and-gradients {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  margin: 1px;
+  overflow: auto;
+}
+body .brand-colors .palette-and-gradients .color-palette-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1px 5px 10px 0;
+}
+body .brand-colors .palette-and-gradients .color-palette-container h5 {
+  padding: 0 0 2px 0;
+}
+body .brand-colors .palette-and-gradients .color-palette-container .color-palette {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 170px;
+  max-width: 140px;
+}
+body .brand-colors .palette-and-gradients .gradients-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 5px 10px 0;
+}
+body .brand-colors .palette-and-gradients .gradients-container h5 {
+  padding: 0 0 2px 10px;
+}
+body .brand-colors .palette-and-gradients .gradients-container .gradients {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 160px;
+  padding-left: 10px;
+}
 body .column2 {
   margin-left: 10px;
   padding: 30px 0 0 0;
@@ -191,6 +318,4 @@ body .column3 {
 }
 body .column3 .components {
   height: 95vh;
-}
-
-/*# sourceMappingURL=design-system.css.map */
+}/*# sourceMappingURL=design-system.css.map */

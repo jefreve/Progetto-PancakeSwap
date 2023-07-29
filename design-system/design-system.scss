@@ -10,14 +10,14 @@ body {
   display: flex;
   gap: 1rem;
 
-  section {
+  .column-container {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     height: 100%;
     width: 33%;
 
-    div {
+    .design-element {
       background-color: #fefefe;
       border-radius: 5px;
       box-shadow: 2px 1px 10px #999;
@@ -133,6 +133,149 @@ body {
     font-size: 1rem;
     font-weight: 550;
   }
+
+  //beginning brand colors
+  .brand-colors {
+    display: flex;
+    flex-direction: column;
+    h1 {
+      padding-bottom: 5px;
+    }
+
+    //palette colors
+    .light-purple {
+      background: #9a6aff;
+    }
+    .white-one {
+      background: #ffffff;
+      border: 0.5px solid rgb(174, 174, 174);
+    }
+    .white-two {
+      background: #f4eeff;
+      border: 0.5px solid rgb(174, 174, 174);
+    }
+    .light-blue {
+      background: #1ec7d3;
+    }
+    .hot-pink {
+      background: #ed4b9e;
+    }
+    .dark-purple-one {
+      background: #280d5f;
+    }
+    .yellow {
+      background: #ffb237;
+    }
+    .dark-grey {
+      background: #27262d;
+    }
+    .dark-purple-two {
+      background: #191326;
+    }
+    .dark-purple-three {
+      background: #08060b;
+    }
+
+    //gradients colors
+    .gradient-one {
+      background-image: linear-gradient(#8050d5, #4a2387);
+    }
+    .gradient-two {
+      background-image: linear-gradient(#5a3d8d, #402767);
+    }
+    .gradient-three {
+      background-image: linear-gradient(#8050d5, #201335);
+    }
+    .gradient-four {
+      background-image: linear-gradient(#3b4054, #3a364b);
+    }
+    .gradient-five {
+      background-image: linear-gradient(#0c4576, #081014);
+    }
+    .gradient-six {
+      background-image: linear-gradient(#0c1d31, #090d14);
+    }
+    .gradient-seven {
+      background-image: linear-gradient(#ffb237, #ffe76a);
+    }
+    .gradient-eight {
+      background-image: linear-gradient(#7645d9, #5221b2);
+    }
+    .gradient-nine {
+      background-image: linear-gradient(#444575, #65568d);
+    }
+
+    // structure of color boxes and their description
+    .color-and-hex {
+      padding: 0 5px 0 0;
+      .color-box {
+        border-radius: 3px;
+        height: 1vw;
+        width: 3vw;
+      }
+      .gradient-box {
+        border-radius: 3px;
+        height: 1vw;
+        width: 3vw;
+      }
+      .hex-code {
+        // font-size: 0.55rem;
+        font-size: calc(0.3rem + 0.3vw);
+        margin: 1px 0;
+      }
+      .gradient-from-hex-code {
+        // font-size: 0.55rem;
+        font-size: calc(0.3rem + 0.3vw);
+        margin: 1px 0;
+      }
+      .gradient-to-hex-code {
+        // font-size: 0.55rem;
+        font-size: calc(0.3rem + 0.3vw);
+        margin: 1px 0;
+      }
+    }
+
+    .palette-and-gradients {
+      display: grid;
+      grid-template-columns: 1fr 2.5fr;
+      margin: 1px;
+      overflow: auto;
+
+      .color-palette-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1px 5px 10px 0;
+
+        h5 {
+          padding: 0 0 2px 0;
+        }
+        .color-palette {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          max-height: 170px;
+          max-width: 140px;
+        }
+      }
+
+      .gradients-container {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 5px 10px 0;
+
+        h5 {
+          padding: 0 0 2px 10px;
+        }
+        .gradients {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          max-height: 160px;
+          padding-left: 10px;
+        }
+      }
+    }
+  } //end of brand colors
 
   .column2 {
     margin-left: 10px;
