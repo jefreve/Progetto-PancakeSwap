@@ -312,6 +312,9 @@ body .column2 .icons {
   height: 12.5vh;
   width: 100%;
 }
+body .column2 .icons svg {
+  margin: 25px 15px 0 0;
+}
 body .column3 {
   margin-left: 10px;
   padding: 30px 30px 0 0;
