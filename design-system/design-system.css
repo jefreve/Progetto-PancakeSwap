@@ -35,10 +35,16 @@ body .column1 {
   padding: 30px 0 0 30px;
 }
 body .column1 .logos,
-body .column1 .brand-colors,
 body .column1 .button-styles {
-  height: 25vh;
+  height: 35vh;
   width: 100%;
+}
+body .column1 .icons {
+  height: 20vh;
+  width: 100%;
+}
+body .column1 .icons svg {
+  margin: 25px 15px 0 0;
 }
 body .button-styles {
   flex-wrap: wrap;
@@ -54,7 +60,7 @@ body .button-styles p {
 body .button-styles #lead-title {
   position: relative;
   left: 12rem;
-  bottom: 8.75rem;
+  bottom: 10.2rem;
 }
 body .button-styles #top-button,
 body .button-styles #top-button-v2 {
@@ -107,15 +113,22 @@ body .button-styles #predict-button svg {
 body .button-styles #predict-button {
   position: relative;
   left: 13rem;
-  bottom: 9rem;
+  bottom: 10.65rem;
 }
 body .button-styles #lead-button {
   position: relative;
   left: 12.5rem;
-  bottom: 9rem;
+  bottom: 10.65rem;
 }
 body .logos {
   flex-direction: column;
+  gap: 0.75rem;
+}
+body .logos .walletSvgAnimated {
+  width: 40px;
+}
+body .logos .PancakeSwapIcon {
+  margin-left: -6px;
 }
 body .logos h1 {
   padding-bottom: 15px;
@@ -128,6 +141,7 @@ body .logos p {
 body .brand-colors {
   display: flex;
   flex-direction: column;
+  height: 35vh;
 }
 body .brand-colors h1 {
   padding-bottom: 5px;
@@ -220,7 +234,6 @@ body .brand-colors .palette-and-gradients {
   display: grid;
   grid-template-columns: 1fr 2.5fr;
   margin: 1px;
-  overflow: auto;
 }
 body .brand-colors .palette-and-gradients .color-palette-container {
   display: flex;
@@ -253,19 +266,21 @@ body .brand-colors .palette-and-gradients .gradients-container .gradients {
   padding-left: 10px;
 }
 body .column2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin-left: 10px;
   padding: 30px 0 0 0;
 }
-body .column2 .typography,
-body .column2 .form-fields {
-  height: 25vh;
+body .column2 .typography {
+  flex-grow: 1;
+  height: 50vh;
   width: 100%;
 }
 body .column2 .typography {
   overflow: hidden;
 }
 body .column2 .fonts-container {
-  overflow: auto;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -307,13 +322,6 @@ body .column2 .paragraph {
   font-size: 16px;
   display: inline;
   text-shadow: 1px 1px 2px black;
-}
-body .column2 .icons {
-  height: 12.5vh;
-  width: 100%;
-}
-body .column2 .icons svg {
-  margin: 25px 15px 0 0;
 }
 body .column3 {
   margin-left: 10px;

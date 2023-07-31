@@ -38,10 +38,17 @@ body {
     padding: 30px 0 0 30px;
 
     .logos,
-    .brand-colors,
     .button-styles {
-      height: 25vh;
+      height: 35vh;
       width: 100%;
+    }
+    .icons {
+      height: 20vh;
+      width: 100%;
+    }
+
+    .icons svg {
+      margin: 25px 15px 0 0;
     }
   }
 
@@ -58,7 +65,7 @@ body {
     #lead-title {
       position: relative;
       left: 12rem;
-      bottom: 8.75rem;
+      bottom: 10.2rem;
     }
     #top-button,
     #top-button-v2 {
@@ -110,17 +117,25 @@ body {
     #predict-button {
       position: relative;
       left: 13rem;
-      bottom: 9rem;
+      bottom: 10.65rem;
     }
     #lead-button {
       position: relative;
       left: 12.5rem;
-      bottom: 9rem;
+      bottom: 10.65rem;
     }
   }
 
   .logos {
     flex-direction: column;
+    gap: 0.75rem;
+
+    .walletSvgAnimated {
+      width: 40px;
+    }
+    .PancakeSwapIcon {
+      margin-left: -6px;
+    }
   }
 
   .logos h1 {
@@ -129,7 +144,6 @@ body {
 
   .logos p {
     padding-bottom: 10px;
-
     font-size: 1rem;
     font-weight: 550;
   }
@@ -138,6 +152,7 @@ body {
   .brand-colors {
     display: flex;
     flex-direction: column;
+    height: 35vh;
     h1 {
       padding-bottom: 5px;
     }
@@ -239,7 +254,6 @@ body {
       display: grid;
       grid-template-columns: 1fr 2.5fr;
       margin: 1px;
-      overflow: auto;
 
       .color-palette-container {
         display: flex;
@@ -278,19 +292,21 @@ body {
   } //end of brand colors
 
   .column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-left: 10px;
     padding: 30px 0 0 0;
 
-    .typography,
-    .form-fields {
-      height: 25vh;
+    .typography {
+      flex-grow: 1;
+      height: 50vh;
       width: 100%;
     }
     .typography {
       overflow: hidden;
     }
     .fonts-container {
-      overflow: auto;
       display: flex;
       flex-direction: column;
       height: 100%;
@@ -335,15 +351,6 @@ body {
       font-size: 16px;
       display: inline;
       text-shadow: 1px 1px 2px black; //DA RIMUOVERE!!
-    }
-
-    .icons {
-      height: 12.5vh;
-      width: 100%;
-    }
-
-    .icons svg {
-      margin: 25px 15px 0 0;
     }
   }
 
