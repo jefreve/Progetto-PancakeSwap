@@ -152,21 +152,106 @@ body {
   .brand-colors {
     display: flex;
     flex-direction: column;
-    height: 35vh;
+    height: 42vh;
     h1 {
       padding-bottom: 5px;
+    }
+    .all-colors {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-rows: auto;
+
+      h5 {
+        color: #7645d9;
+        font-size: 0.8rem;
+        margin-bottom: 2px;
+        text-shadow: 1.2px 1px 0.5px#B8ADD2;
+      }
+      .light-h5 {
+        color: #e3d6fa;
+        text-shadow: 1.2px 1px 0.5px#1e0947;
+      }
+
+      .colors-section {
+        display: flex;
+        flex-wrap: wrap;
+
+        .used-for {
+          color: #7645d9;
+          display: flex;
+          flex-wrap: wrap;
+          font-size: 0.6rem;
+          margin-bottom: 2px;
+          width: 50px;
+        }
+      }
+
+      .dark-backgrounds,
+      .light-backgrounds {
+        display: flex;
+        flex-wrap: wrap;
+        .used-for {
+          color: #7645d9;
+          display: flex;
+          flex-wrap: wrap;
+          font-size: 0.6rem;
+          margin-bottom: 2px;
+          width: 70px;
+        }
+      }
+    }
+
+    // structure of color boxes and their description
+    .color-and-hex {
+      padding: 0 5px 0 0;
+      .color-box {
+        border-radius: 3px;
+        height: 18px;
+        width: 45px;
+      }
+      .hex-code {
+        color: #280d5f;
+        font-size: 0.6rem;
+        margin: 1px 0;
+      }
+    }
+
+    .legenda {
+      background: #0c1d31;
+      border-radius: 5px;
+      color: #f4eeff;
+      font-size: 0.6rem;
+      margin-top: 7px;
+      padding: 5px 0 4px 7px;
+    }
+    .bold-violet {
+      color: #9a6aff;
+      font-weight: bold;
     }
 
     //palette colors
     .light-purple {
       background: #9a6aff;
     }
+    .light-purple-two {
+      background: #7645d9;
+    }
+    .violet {
+      background: #b8add2;
+    }
+    .violet-two {
+      background: #7a6eaa;
+    }
+    .light-violet {
+      background: #f4eeff;
+      border: 0.5px solid rgb(174, 174, 174);
+    }
     .white-one {
       background: #ffffff;
       border: 0.5px solid rgb(174, 174, 174);
     }
     .white-two {
-      background: #f4eeff;
+      background: #faf9fa;
       border: 0.5px solid rgb(174, 174, 174);
     }
     .light-blue {
@@ -199,7 +284,7 @@ body {
       background-image: linear-gradient(#5a3d8d, #402767);
     }
     .gradient-three {
-      background-image: linear-gradient(#8050d5, #201335);
+      background-image: linear-gradient(#140f1f, #201335);
     }
     .gradient-four {
       background-image: linear-gradient(#3b4054, #3a364b);
@@ -219,75 +304,25 @@ body {
     .gradient-nine {
       background-image: linear-gradient(#444575, #65568d);
     }
-
-    // structure of color boxes and their description
-    .color-and-hex {
-      padding: 0 5px 0 0;
-      .color-box {
-        border-radius: 3px;
-        height: 1vw;
-        width: 3vw;
-      }
-      .gradient-box {
-        border-radius: 3px;
-        height: 1vw;
-        width: 3vw;
-      }
-      .hex-code {
-        // font-size: 0.55rem;
-        font-size: calc(0.3rem + 0.3vw);
-        margin: 1px 0;
-      }
-      .gradient-from-hex-code {
-        // font-size: 0.55rem;
-        font-size: calc(0.3rem + 0.3vw);
-        margin: 1px 0;
-      }
-      .gradient-to-hex-code {
-        // font-size: 0.55rem;
-        font-size: calc(0.3rem + 0.3vw);
-        margin: 1px 0;
-      }
+    .gradient-ten {
+      background-image: linear-gradient(#ecfbff, #f1f1ff);
+      border: 0.5px solid rgb(174, 174, 174);
     }
-
-    .palette-and-gradients {
-      display: grid;
-      grid-template-columns: 1fr 2.5fr;
-      margin: 1px;
-
-      .color-palette-container {
-        display: flex;
-        flex-direction: column;
-        padding: 1px 5px 10px 0;
-
-        h5 {
-          padding: 0 0 2px 0;
-        }
-        .color-palette {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: wrap;
-          max-height: 170px;
-          max-width: 140px;
-        }
-      }
-
-      .gradients-container {
-        display: flex;
-        flex-direction: column;
-        padding: 5px 5px 10px 0;
-
-        h5 {
-          padding: 0 0 2px 10px;
-        }
-        .gradients {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: wrap;
-          max-height: 160px;
-          padding-left: 10px;
-        }
-      }
+    .gradient-eleven {
+      background-image: linear-gradient(#fcfdff, #d6caec);
+      border: 0.5px solid rgb(174, 174, 174);
+    }
+    .gradient-twelve {
+      background-image: linear-gradient(#f4eff4, #e9f2f7);
+      border: 0.5px solid rgb(174, 174, 174);
+    }
+    .gradient-thirteen {
+      background-image: linear-gradient(#6fb7f1, #e9f2f7);
+      border: 0.5px solid rgb(174, 174, 174);
+    }
+    .gradient-fourteen {
+      background-image: linear-gradient(#cce5fa, #f0f6fc);
+      border: 0.5px solid rgb(174, 174, 174);
     }
   } //end of brand colors
 

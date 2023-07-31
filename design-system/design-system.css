@@ -141,20 +141,99 @@ body .logos p {
 body .brand-colors {
   display: flex;
   flex-direction: column;
-  height: 35vh;
+  height: 42vh;
 }
 body .brand-colors h1 {
   padding-bottom: 5px;
 }
+body .brand-colors .all-colors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+}
+body .brand-colors .all-colors h5 {
+  color: #7645d9;
+  font-size: 0.8rem;
+  margin-bottom: 2px;
+  text-shadow: 1.2px 1px 0.5px #B8ADD2;
+}
+body .brand-colors .all-colors .light-h5 {
+  color: #e3d6fa;
+  text-shadow: 1.2px 1px 0.5px #1e0947;
+}
+body .brand-colors .all-colors .colors-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .brand-colors .all-colors .colors-section .used-for {
+  color: #7645d9;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.6rem;
+  margin-bottom: 2px;
+  width: 50px;
+}
+body .brand-colors .all-colors .dark-backgrounds,
+body .brand-colors .all-colors .light-backgrounds {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .brand-colors .all-colors .dark-backgrounds .used-for,
+body .brand-colors .all-colors .light-backgrounds .used-for {
+  color: #7645d9;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.6rem;
+  margin-bottom: 2px;
+  width: 70px;
+}
+body .brand-colors .color-and-hex {
+  padding: 0 5px 0 0;
+}
+body .brand-colors .color-and-hex .color-box {
+  border-radius: 3px;
+  height: 18px;
+  width: 45px;
+}
+body .brand-colors .color-and-hex .hex-code {
+  color: #280d5f;
+  font-size: 0.6rem;
+  margin: 1px 0;
+}
+body .brand-colors .legenda {
+  background: #0c1d31;
+  border-radius: 5px;
+  color: #f4eeff;
+  font-size: 0.6rem;
+  margin-top: 7px;
+  padding: 5px 0 4px 7px;
+}
+body .brand-colors .bold-violet {
+  color: #9a6aff;
+  font-weight: bold;
+}
 body .brand-colors .light-purple {
   background: #9a6aff;
+}
+body .brand-colors .light-purple-two {
+  background: #7645d9;
+}
+body .brand-colors .violet {
+  background: #b8add2;
+}
+body .brand-colors .violet-two {
+  background: #7a6eaa;
+}
+body .brand-colors .light-violet {
+  background: #f4eeff;
+  border: 0.5px solid rgb(174, 174, 174);
 }
 body .brand-colors .white-one {
   background: #ffffff;
   border: 0.5px solid rgb(174, 174, 174);
 }
 body .brand-colors .white-two {
-  background: #f4eeff;
+  background: #faf9fa;
   border: 0.5px solid rgb(174, 174, 174);
 }
 body .brand-colors .light-blue {
@@ -185,7 +264,7 @@ body .brand-colors .gradient-two {
   background-image: linear-gradient(#5a3d8d, #402767);
 }
 body .brand-colors .gradient-three {
-  background-image: linear-gradient(#8050d5, #201335);
+  background-image: linear-gradient(#140f1f, #201335);
 }
 body .brand-colors .gradient-four {
   background-image: linear-gradient(#3b4054, #3a364b);
@@ -205,65 +284,25 @@ body .brand-colors .gradient-eight {
 body .brand-colors .gradient-nine {
   background-image: linear-gradient(#444575, #65568d);
 }
-body .brand-colors .color-and-hex {
-  padding: 0 5px 0 0;
+body .brand-colors .gradient-ten {
+  background-image: linear-gradient(#ecfbff, #f1f1ff);
+  border: 0.5px solid rgb(174, 174, 174);
 }
-body .brand-colors .color-and-hex .color-box {
-  border-radius: 3px;
-  height: 1vw;
-  width: 3vw;
+body .brand-colors .gradient-eleven {
+  background-image: linear-gradient(#fcfdff, #d6caec);
+  border: 0.5px solid rgb(174, 174, 174);
 }
-body .brand-colors .color-and-hex .gradient-box {
-  border-radius: 3px;
-  height: 1vw;
-  width: 3vw;
+body .brand-colors .gradient-twelve {
+  background-image: linear-gradient(#f4eff4, #e9f2f7);
+  border: 0.5px solid rgb(174, 174, 174);
 }
-body .brand-colors .color-and-hex .hex-code {
-  font-size: calc(0.3rem + 0.3vw);
-  margin: 1px 0;
+body .brand-colors .gradient-thirteen {
+  background-image: linear-gradient(#6fb7f1, #e9f2f7);
+  border: 0.5px solid rgb(174, 174, 174);
 }
-body .brand-colors .color-and-hex .gradient-from-hex-code {
-  font-size: calc(0.3rem + 0.3vw);
-  margin: 1px 0;
-}
-body .brand-colors .color-and-hex .gradient-to-hex-code {
-  font-size: calc(0.3rem + 0.3vw);
-  margin: 1px 0;
-}
-body .brand-colors .palette-and-gradients {
-  display: grid;
-  grid-template-columns: 1fr 2.5fr;
-  margin: 1px;
-}
-body .brand-colors .palette-and-gradients .color-palette-container {
-  display: flex;
-  flex-direction: column;
-  padding: 1px 5px 10px 0;
-}
-body .brand-colors .palette-and-gradients .color-palette-container h5 {
-  padding: 0 0 2px 0;
-}
-body .brand-colors .palette-and-gradients .color-palette-container .color-palette {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-height: 170px;
-  max-width: 140px;
-}
-body .brand-colors .palette-and-gradients .gradients-container {
-  display: flex;
-  flex-direction: column;
-  padding: 5px 5px 10px 0;
-}
-body .brand-colors .palette-and-gradients .gradients-container h5 {
-  padding: 0 0 2px 10px;
-}
-body .brand-colors .palette-and-gradients .gradients-container .gradients {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-height: 160px;
-  padding-left: 10px;
+body .brand-colors .gradient-fourteen {
+  background-image: linear-gradient(#cce5fa, #f0f6fc);
+  border: 0.5px solid rgb(174, 174, 174);
 }
 body .column2 {
   display: flex;
