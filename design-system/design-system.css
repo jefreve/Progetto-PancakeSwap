@@ -325,8 +325,11 @@ body .column2 .fonts-container {
   height: 100%;
   width: 100%;
 }
+body .column2 .fonts-container .font-family {
+  margin-bottom: 10px;
+}
 body .column2 .fonts-container .container-64px {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 body .column2 .fonts-container .container-16px {
   margin-top: 30px;
