@@ -325,6 +325,12 @@ body .column2 .fonts-container {
   height: 100%;
   width: 100%;
 }
+body .column2 .fonts-container .container-64px {
+  margin-top: 40px;
+}
+body .column2 .fonts-container .container-16px {
+  margin-top: 30px;
+}
 body .column2 .main-banner-font {
   font-family: "Kanit", sans-serif;
   color: #9a6aff;
