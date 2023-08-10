@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .menu-item {
+    @apply relative flex h-5/6 items-center p-4 cursor-pointer hover:bg-navbar-item-hover rounded-2xl transition-colors ease-in-out;
+  }
+}
