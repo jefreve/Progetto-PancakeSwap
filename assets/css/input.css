@@ -3,7 +3,22 @@
 @tailwind utilities;
 
 @layer components {
-  .menu-item {
-    @apply relative flex h-5/6 items-center p-4 cursor-pointer hover:bg-navbar-item-hover rounded-2xl transition-colors ease-in-out;
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 9px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #b8add2;
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #302b38;
+    border-radius: 10px;
+  }
+
+  #select-network:hover #arrow {
+    color: #ada8b6;
   }
 }
