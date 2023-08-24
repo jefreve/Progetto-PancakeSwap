@@ -17,7 +17,12 @@ module.exports = {
         "secondary-red": "#ED4B9E",
         "navbar-icon-hover": "#857E98",
       },
+      boxShadow: {
+        button: "0px -1px 0px 0px inset",
+        selectNetwork: "0px -2px 0px 0px inset",
+      },
     },
   },
   plugins: [],
+  darkMode: "class",
 };
