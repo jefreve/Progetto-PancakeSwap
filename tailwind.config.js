@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
+    fontFamily: {
+      body: ["Kanit, sans-serif"],
+    },
     extend: {
       animation: {
         bounce: "duration-100 ease-in-out delay-0 infinite",
