@@ -16,3 +16,39 @@
     animation: fade 5s ease-in-out 1s infinite;
   }
 }
+
+@layer components {
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 9px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #b8add2;
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #302b38;
+    border-radius: 10px;
+  }
+
+  #select-network:hover #arrow {
+    color: #746298;
+  }
+  .dark #select-network:hover #arrow {
+    color: #ada8b6;
+  }
+  .dropdown-item:hover .dropdown-button {
+    background-color: #eff4f5;
+  }
+  .dark .dropdown-item:hover .dropdown-button {
+    background-color: #353547;
+  }
+  .switch:checked + .slider {
+    left: calc(100% - 29px);
+  }
+  #switch-selected {
+    background-color: #32d0aa;
+  }
+}

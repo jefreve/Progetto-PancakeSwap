@@ -5,8 +5,9 @@ module.exports = {
     screens: {
       screen370: "370px",
       screen576: "576px",
-      screen968: "968px",
       screen852: "852px",
+      screen968: "968px",
+      screen1080: "1080px",
     },
 
     fontFamily: {
