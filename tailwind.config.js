@@ -2,7 +2,55 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    screens: {
+      screen370: "370px",
+      screen576: "576px",
+      screen968: "968px",
+      screen852: "852px",
+    },
+    fontFamily: {
+      body: ["Kanit, sans-serif"],
+    },
+    extend: {
+      colors: {
+        "main-purple": "#9A6AFF",
+        "buttons-cyan": "#1EC7D3",
+        "buttons-dark-text": "#191326",
+        "light-violet": "#B8ADD2",
+        "navbar-item-hover": "#353547",
+        "dropdown-border": "#383241",
+        "green-dot": "#31d0aa",
+        "secondary-red": "#ED4B9E",
+        "navbar-icon-hover": "#857E98",
+      },
+      animation: {
+        pieFloating:
+          "pieFloating 3s ease-in-out 1s infinite normal none running",
+        stonksFloating:
+          "stonksFloating 3s ease-in-out 0.66s infinite normal none running",
+        folderFloating:
+          "stonksFloating 3s ease-in-out 0.33s infinite normal none running",
+      },
+      keyframes: {
+        pieFloating: {
+          "0%, 100%": { transform: "translate(0px, 0px)" },
+          "50%": { transform: "translate(3px, 15px)" },
+        },
+        stonksFloating: {
+          "0%, 100%": { transform: "translate(0px, 0px)" },
+          "50%": { transform: "translate(5px, 10px)" },
+        },
+        folderFloating: {
+          "0%, 100%": { transform: "translate(0px, 0px)" },
+          "50%": { transform: "translate(5px, 6px)" },
+        },
+      },
+      boxShadow: {
+        button: "0px -1px 0px 0px inset",
+        selectNetwork: "0px -2px 0px 0px inset",
+      },
+    },
   },
   plugins: [],
+  darkMode: "class",
 };
