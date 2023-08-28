@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  #astro-bunny {
+    animation: bounce 3.5s ease-in-out 0s infinite;
+  }
+  #top-right-star {
+    animation: fade 2.5s ease-in-out 0.33s infinite;
+  }
+  #left-star {
+    animation: fade 2s ease-in-out 1s infinite;
+  }
+  #right-star {
+    animation: fade 5s ease-in-out 1s infinite;
+  }
+}
