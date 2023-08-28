@@ -2,6 +2,12 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
+    screens: {
+      screen576: "576px",
+      screen852: "852px",
+      screen968: "968px",
+      screen1080: "1080px",
+    },
     extend: {
       colors: {
         "main-purple": "#9A6AFF",

@@ -1,6 +1,6 @@
 const darkLight = document.getElementById("dark-light-button");
-
 const html = document.querySelector("html");
+const fixedNavbar = document.getElementById("fixed-navbar");
 
 darkLight.addEventListener("click", () => {
   html.classList.toggle("dark");
@@ -28,3 +28,30 @@ switchButtons.forEach((el) => {
 });
 
 // addEventListener("change", () => {});
+
+fixedNavbar.addEventListener("click", (e) => {
+  if (
+    e.target.matches("svg") ||
+    e.target.matches("span") ||
+    e.target.matches("button") ||
+    e.target.matches(".svg-parent") ||
+    e.target.matches(".menu-item")
+  ) {
+    // const menuItems = Array.from(document.getElementsByClassName(".menu-item"));
+    // menuItems.forEach((menuItem) => {
+    //   const item = menuItem.querySelector("ul");
+    //   const classes = Array.from(item.classList);
+
+    // });
+
+    const svgParent = e.target.closest(".svg-parent");
+
+    const fixedNavbarElement = svgParent.parentNode;
+
+    const dropdown = fixedNavbarElement.querySelector("ul");
+
+    dropdown.classList.toggle("block");
+    dropdown.classList.toggle("hidden");
+    dropdown.style.width = "calc(100% - 32px)";
+  }
+});
