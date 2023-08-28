@@ -9,7 +9,7 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="background-moon" class="bg-[#1B152B] w-full">
+    <div id="background-moon" class="dark:bg-[#1B152B] w-full">
       <div
         id="moon-pancake"
         class="flex z-2 items-center justify-center h-screen"
@@ -23,7 +23,7 @@
           </h2>
           <h2
             id="moon-title2"
-            class="text-[20px] font-semibold text-white mt-0 mb-4"
+            class="text-[20px] font-semibold dark:text-white mt-0 mb-4"
           >
             Trade, earn, and win crypto on the most popular decentralized
             platform in the galaxy.
@@ -32,7 +32,7 @@
             <button
               type="button"
               id="wallet-btn"
-              class="bg-[#1fc7d4] text-[#191326] text-base font-semibold rounded-2xl px-6 py-4 cursor-pointer hover:bg-[#0098a1] transition duration-200"
+              class="bg-[#1fc7d4] text-white dark:text-[#191326] text-base font-semibold rounded-2xl px-6 py-4 cursor-pointer hover:bg-[#0098a1] transition duration-200"
               text
             >
               Connect Wallet
@@ -40,7 +40,7 @@
             <button
               type="button"
               id="trade-btn"
-              class="bg-[#191326] text-[#1fc7d4] border-2 border-solid border-[#1fc7d4] text-base font-semibold rounded-2xl px-6 py-4 cursor-pointer transition duration-200 hover:text-[#0098a1] hover:border-[#0098a1]"
+              class="dark:bg-[#191326] text-[#1fc7d4] dark:text-[#1fc7d4] border-2 border-solid border-[#1fc7d4] text-base font-semibold rounded-2xl px-6 py-4 cursor-pointer transition duration-200 hover:text-[#0098a1] hover:border-[#0098a1]"
             >
               Trade Now
             </button>
@@ -73,9 +73,10 @@
               <img src="./moonBunnyAssets/star-top-r.webp" />
             </div>
           </div>
+
           <div
-            id="svgWave"
-            class="w-full absolute bottom-[0px] left-0 flex justify-center"
+            id="svgWaveDark"
+            class="w-full absolute bottom-[0px] left-0 justify-center dark:block hidden"
           >
             <svg
               viewBox="0 0 1660 339"
