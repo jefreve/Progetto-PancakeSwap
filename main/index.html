@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../assets/css/animations.css" />
     <title>Skeleton</title>
   </head>
-  <body>
+  <body class="">
     <!-- banner top jef -->
     <div class="font-body h-[70px] w-full min-h-[70px] max-h-[70px]">
       <div
@@ -61,7 +61,7 @@
 
     <!-- navbar jef -->
     <div
-      class="bg-[#EAF8FF] dark:bg-buttons-dark-text min-w-full h-[100vh] overflow-hidden"
+      class="bg-[#EAF8FF] dark:bg-buttons-dark-text min-w-full overflow-hidden"
     >
       <nav
         class="flex justify-between bg-white dark:bg-zinc-800 dark:text-light-violet px-4 h-14 min-w-[100%] w-[100%] border-b border-[#E7E3EB] dark:border-dropdown-border"
@@ -666,7 +666,7 @@
               class="min-w-[32px] max-w-[32px] w-full min-h-[32px] max-h-[32px]"
             >
               <img
-                src="./assets/BNB.png"
+                src="../assets/navbar/BNB.png"
                 class="w-full h-full rounded-[50%]"
                 alt=""
                 class=""
@@ -708,7 +708,7 @@
                 class="flex items-center h-12 hover:bg-[#EFF4F5] dark:hover:bg-navbar-item-hover transition-colors ease-in-ou pl-4"
               >
                 <div class="h-6 pr-3">
-                  <img src="./assets/BNB.png" class="h-full" alt="" />
+                  <img src="../assets/navbar/BNB.png" class="h-full" alt="" />
                 </div>
                 <span class="text-[#7645D9] dark:text-main-purple font-semibold"
                   >BNB Smart Chain</span
@@ -718,7 +718,7 @@
                 class="flex items-center h-12 hover:bg-[#EFF4F5] dark:hover:bg-navbar-item-hover transition-colors ease-in-out pl-4"
               >
                 <div class="h-6 pr-3">
-                  <img src="./assets/ETH.png" class="h-full" alt="" />
+                  <img src="../assets/navbar/ETH.png" class="h-full" alt="" />
                 </div>
                 <span>Ethereum</span>
               </li>
@@ -726,7 +726,11 @@
                 class="flex items-center h-12 hover:bg-[#EFF4F5] dark:hover:bg-navbar-item-hover transition-colors ease-in-out pl-4"
               >
                 <div class="h-6 pr-3">
-                  <img src="./assets/zkSync Era.png" class="h-full" alt="" />
+                  <img
+                    src="../assets/navbar/zkSync Era.png"
+                    class="h-full"
+                    alt=""
+                  />
                 </div>
                 <span>zkSync Era</span>
               </li>
@@ -734,7 +738,11 @@
                 class="flex items-center h-12 hover:bg-[#EFF4F5] dark:hover:bg-navbar-item-hover transition-colors ease-in-out pl-4"
               >
                 <div class="h-6 pr-3">
-                  <img src="./assets/polygon.png" class="h-full" alt="" />
+                  <img
+                    src="../assets/navbar/polygon.png"
+                    class="h-full"
+                    alt=""
+                  />
                 </div>
                 <span>Polygon zkEVM</span>
               </li>
@@ -742,7 +750,11 @@
                 class="flex items-center h-12 hover:bg-[#EFF4F5] dark:hover:bg-navbar-item-hover transition-colors ease-in-out pl-4"
               >
                 <div class="h-6 pr-3">
-                  <img src="./assets/arbitrumOne.png" class="h-full" alt="" />
+                  <img
+                    src="../assets/navbar/arbitrumOne.png"
+                    class="h-full"
+                    alt=""
+                  />
                 </div>
                 <span>Arbitrum One</span>
               </li>
@@ -750,7 +762,7 @@
                 class="flex items-center h-12 hover:bg-[#EFF4F5] dark:hover:bg-navbar-item-hover transition-colors ease-in-out hover:rounded-b-md mb-1 pl-4"
               >
                 <div class="h-6 pr-3">
-                  <img src="./assets/Aptos.png" class="h-full" alt="" />
+                  <img src="../assets/navbar/Aptos.png" class="h-full" alt="" />
                 </div>
                 <span>Aptos</span>
               </li>
@@ -1194,7 +1206,8 @@
         </div>
       </div>
 
-      <div class="flex justify-center my-8">
+      <div class="hidden justify-center my-8">
+        <!-- era flex -->
         <button
           type="button"
           id="dark-light-button"
@@ -1423,7 +1436,7 @@
           </div>
           <div id="star-container" class="w-[600px] absolute">
             <div id="left-star" class="absolute top-0 left-0 animate-[fade]">
-              <img src="../assets/moonBunnyAssets/star-l.webp" />
+              <img alt="" src="../assets/moonBunnyAssets/star-l.webp" />
             </div>
             <div
               id="right-star"
@@ -1435,7 +1448,7 @@
               id="top-right-star"
               class="absolute top-0 left-0 animate-[fade] duration-2500 ease-in-out delay-330 infinite"
             >
-              <img src="../assets/moonBunnyAssets/star-top-r.webp" />
+              <img alt="" src="../assets/moonBunnyAssets/star-top-r.webp" />
             </div>
           </div>
         </div>
@@ -1574,7 +1587,7 @@
                 preserveAspectRatio="none"
                 width="20px"
                 xmlns="http://www.w3.org/2000/svg"
-                class="fill-[#FAF9FA] w-[150%] h-full max-h-12 flex-shrink-0"
+                class="fill-white w-[150%] h-full max-h-12 flex-shrink-0 dark:fill-black"
               >
                 <path
                   d="M-346 48C174.985 46.1887 977.744 15.2453 1314 0H-346V48Z"
