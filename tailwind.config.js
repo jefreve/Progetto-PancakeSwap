@@ -102,7 +102,9 @@ module.exports = {
         stonksFloating:
           "stonksFloating 3s ease-in-out 0.66s infinite normal none running",
         folderFloating:
-          "stonksFloating 3s ease-in-out 0.33s infinite normal none running",
+          "folderFloating 3s ease-in-out 0.33s infinite normal none running",
+        bottomPancake2right:
+          "bottomPancake2right 3s ease-in-out 0.33s infinite normal none running",
         bounce: "duration-100 ease-in-out delay-0 infinite",
       },
     },
@@ -135,6 +137,10 @@ module.exports = {
       folderFloating: {
         "0%, 100%": { transform: "translate(0px, 0px)" },
         "50%": { transform: "translate(5px, 6px)" },
+      },
+      bottomPancake2right: {
+        "0%, 100%": { transform: "translate(0px, 0px)" },
+        "50%": { transform: "translate(6px, 5px)" },
       },
     },
   },
