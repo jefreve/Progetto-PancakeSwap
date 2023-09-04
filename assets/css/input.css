@@ -33,7 +33,4 @@
   .switch:checked + .slider {
     left: calc(100% - 29px);
   }
-  #switch-selected {
-    background-color: #32d0aa;
-  }
 }

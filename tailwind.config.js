@@ -8,6 +8,9 @@ module.exports = {
       screen968: "968px",
       screen1080: "1080px",
     },
+    fontFamily: {
+      body: ["Kanit, sans-serif"],
+    },
     extend: {
       colors: {
         "main-purple": "#9A6AFF",
@@ -23,6 +26,17 @@ module.exports = {
       boxShadow: {
         button: "0px -1px 0px 0px inset",
         selectNetwork: "0px -2px 0px 0px inset",
+      },
+      animation: {
+        modalBgAnim: "modalAnim 350ms ease 0s 1 normal forwards running",
+        modalAnim: "auto ease 0s 1 normal none running none",
+      },
+    },
+
+    keyframes: {
+      modalBgAnim: {
+        "0%": { opacity: "0" },
+        "100%": { opacity: "1" },
       },
     },
   },

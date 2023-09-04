@@ -1,17 +1,14 @@
 const darkLight = document.getElementById("dark-light-button");
 const html = document.querySelector("html");
 const fixedNavbar = document.getElementById("fixed-navbar");
+const settingsIcon = document.getElementById("settings-icon");
+const settingsModal = document.getElementById("settings-modal");
+const closeModal = document.getElementById("close-modal");
+const modalBg = document.getElementById("modal-bg");
 
 darkLight.addEventListener("click", () => {
   html.classList.toggle("dark");
 });
-
-// const switchBtn = document.getElementById("switch");
-// const slider = document.getElementById("slider");
-
-// switchBtn.addEventListener("change", () => {
-//   slider.classList.toggle("switchSelected");
-// });
 
 const switchButtons = Array.from(document.getElementsByClassName("switch"));
 switchButtons.forEach((el) => {
@@ -22,12 +19,41 @@ switchButtons.forEach((el) => {
     } else {
       switchContainer.style.backgroundColor = "";
     }
-
-    //da fare in modo che torni come prima quando non checked
   });
 });
 
-// addEventListener("change", () => {});
+const darkLightSwitchNavbar = document.getElementById("darkLightSwitchNavbar");
+const sunNavbar = document.getElementById("sunNavbar");
+const moonNavbar = document.getElementById("moonNavbar");
+const dLSC = darkLightSwitchNavbar.closest(".switch-container");
+
+darkLightSwitchNavbar.addEventListener("change", () => {
+  if (darkLightSwitchNavbar.checked) {
+    html.classList.toggle("dark");
+    sunNavbar.classList.toggle("hidden");
+    moonNavbar.classList.toggle("hidden");
+    dLSC.style.backgroundColor = "#666171";
+  } else {
+    html.classList.toggle("dark");
+    sunNavbar.classList.toggle("hidden");
+    moonNavbar.classList.toggle("hidden");
+    dLSC.style.backgroundColor = "";
+  }
+});
+
+settingsIcon.addEventListener("click", () => {
+  settingsModal.classList.remove("hidden");
+  settingsModal.classList.add("flex");
+  modalBg.classList.remove("hidden");
+});
+
+closeModal.addEventListener("click", () => {
+  settingsModal.classList.add("hidden");
+  settingsModal.classList.remove("flex");
+  modalBg.classList.add("hidden");
+});
+
+// this is for the navbar showing in mobile mode
 
 fixedNavbar.addEventListener("click", (e) => {
   if (
@@ -37,13 +63,6 @@ fixedNavbar.addEventListener("click", (e) => {
     e.target.matches(".svg-parent") ||
     e.target.matches(".menu-item")
   ) {
-    // const menuItems = Array.from(document.getElementsByClassName(".menu-item"));
-    // menuItems.forEach((menuItem) => {
-    //   const item = menuItem.querySelector("ul");
-    //   const classes = Array.from(item.classList);
-
-    // });
-
     const svgParent = e.target.closest(".svg-parent");
 
     const fixedNavbarElement = svgParent.parentNode;
