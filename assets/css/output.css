@@ -570,6 +570,10 @@ video {
   color: #746298;
 }
 
+.dark #select-network:hover #arrow {
+  color: #ada8b6;
+}
+
 .dropdown-item:hover .dropdown-button {
   background-color: #eff4f5;
 }
@@ -1928,6 +1932,16 @@ video {
   border-color: rgb(56 50 65 / var(--tw-border-opacity));
 }
 
+:is(.dark .dark\:border-\[black\]) {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+:is(.dark .dark\:border-\[\#383241\]) {
+  --tw-border-opacity: 1;
+  border-color: rgb(56 50 65 / var(--tw-border-opacity));
+}
+
 :is(.dark .dark\:bg-\[\#191326\]) {
   --tw-bg-opacity: 1;
   background-color: rgb(25 19 38 / var(--tw-bg-opacity));
@@ -1983,8 +1997,22 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+:is(.dark .dark\:from-black) {
+  --tw-gradient-from: #000 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 :is(.dark .dark\:to-\[\#3a3045\]) {
   --tw-gradient-to: #3a3045 var(--tw-gradient-to-position);
+}
+
+:is(.dark .dark\:to-\[\#D8CBED\]) {
+  --tw-gradient-to: #D8CBED var(--tw-gradient-to-position);
+}
+
+:is(.dark .dark\:to-\[\#201335\]) {
+  --tw-gradient-to: #201335 var(--tw-gradient-to-position);
 }
 
 :is(.dark .dark\:fill-\[url\(\#paint0_linear_dark\)\]) {
