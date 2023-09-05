@@ -30,6 +30,7 @@
   .dark .dropdown-item:hover .dropdown-button {
     background-color: #353547;
   }
+
   .switch:checked + .slider {
     left: calc(100% - 29px);
   }
