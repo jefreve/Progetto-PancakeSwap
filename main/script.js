@@ -2,7 +2,7 @@ const html = document.querySelector("html");
 const darkLight = document.getElementById("dark-light-button");
 const fixedNavbar = document.getElementById("fixed-navbar");
 const settingsIcon = document.getElementById("settings-icon");
-const settingsModal = document.getElementById("settings-modal");
+
 const closeModal = document.getElementById("close-modal");
 const modalBg = document.getElementById("modal-bg");
 
@@ -41,15 +41,15 @@ darkLightSwitchNavbar.addEventListener("change", () => {
   }
 });
 
-settingsIcon.addEventListener("click", () => {
-  settingsModal.classList.remove("hidden");
-  settingsModal.classList.add("flex");
+closeModal.addEventListener("click", () => {
+  closeModal.classList.remove("hidden");
+  closeModal.classList.add("flex");
   modalBg.classList.remove("hidden");
 });
 
 closeModal.addEventListener("click", () => {
-  settingsModal.classList.add("hidden");
-  settingsModal.classList.remove("flex");
+  closeModal.classList.add("hidden");
+  closeModal.classList.remove("flex");
   modalBg.classList.add("hidden");
 });
 
