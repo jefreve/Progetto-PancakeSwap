@@ -15,9 +15,9 @@
   #right-star {
     animation: fade 5s ease-in-out 1s infinite;
   }
-}
-
-@layer components {
+  .switch:checked + .slider {
+    left: calc(100% - 29px);
+  }
   ::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 9px;
@@ -44,11 +44,5 @@
   }
   .dark .dropdown-item:hover .dropdown-button {
     background-color: #353547;
-  }
-  .switch:checked + .slider {
-    left: calc(100% - 29px);
-  }
-  #switch-selected {
-    background-color: #32d0aa;
   }
 }
