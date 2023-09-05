@@ -104,6 +104,7 @@ module.exports = {
         folderFloating:
           "stonksFloating 3s ease-in-out 0.33s infinite normal none running",
         bounce: "duration-100 ease-in-out delay-0 infinite",
+        topLeft: "topLeft 3s ease-in-out 0s infinite normal none running",
       },
     },
     boxShadow: {
@@ -135,6 +136,10 @@ module.exports = {
       folderFloating: {
         "0%, 100%": { transform: "translate(0px, 0px)" },
         "50%": { transform: "translate(5px, 6px)" },
+      },
+      topLeft: {
+        "0%, 100%": { transform: "translate(0px, 0px)" },
+        "50%": { transform: "translate(4px, 12px)" },
       },
     },
   },
