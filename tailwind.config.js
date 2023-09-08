@@ -96,6 +96,12 @@ module.exports = {
         "secondary-red": "#ED4B9E",
         "navbar-icon-hover": "#857E98",
       },
+      backgroundImage: {
+        planetZudd:
+          "url('https://static-nft.pancakeswap.com/mainnet/0xC742d00736DEB5D85DD11DBa8c31b43b5A581d55/banner-sm.png')",
+        planetZuddBanner:
+          "url('https://static-nft.pancakeswap.com/mainnet/0xC742d00736DEB5D85DD11DBa8c31b43b5A581d55/avatar.png')",
+      },
       animation: {
         pieFloating:
           "pieFloating 3s ease-in-out 1s infinite normal none running",
