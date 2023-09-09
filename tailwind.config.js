@@ -105,6 +105,10 @@ module.exports = {
           "stonksFloating 3s ease-in-out 0.33s infinite normal none running",
         bounce: "duration-100 ease-in-out delay-0 infinite",
       },
+      backgroundImage: {
+        bunnyStatic:
+          "url('https://static-nft.pancakeswap.com/mainnet/0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07/sleepy-1000.png')",
+      },
     },
     boxShadow: {
       button: "0px -1px 0px 0px inset",
