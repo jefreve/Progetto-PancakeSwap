@@ -676,6 +676,11 @@ video {
   margin-right: 0.125rem;
 }
 
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -859,17 +864,21 @@ video {
   height: 100%;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-max {
   height: -moz-max-content;
   height: max-content;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .max-h-12 {
   max-height: 3rem;
+}
+
+.max-h-80 {
+  max-height: 20rem;
 }
 
 .max-h-\[32px\] {
@@ -886,30 +895,6 @@ video {
 
 .max-h-full {
   max-height: 100%;
-}
-
-.max-h-24 {
-  max-height: 6rem;
-}
-
-.max-h-3 {
-  max-height: 0.75rem;
-}
-
-.max-h-36 {
-  max-height: 9rem;
-}
-
-.max-h-96 {
-  max-height: 24rem;
-}
-
-.max-h-9 {
-  max-height: 2.25rem;
-}
-
-.max-h-80 {
-  max-height: 20rem;
 }
 
 .min-h-\[32px\] {
@@ -1000,6 +985,14 @@ video {
   max-width: 1200px;
 }
 
+.max-w-\[120px\] {
+  max-width: 120px;
+}
+
+.max-w-\[320px\] {
+  max-width: 320px;
+}
+
 .max-w-\[32px\] {
   max-width: 32px;
 }
@@ -1018,22 +1011,6 @@ video {
 
 .max-w-xs {
   max-width: 20rem;
-}
-
-.max-w-5xl {
-  max-width: 64rem;
-}
-
-.max-w-\[\] {
-  max-width: ;
-}
-
-.max-w-\[320px\] {
-  max-width: 320px;
-}
-
-.max-w-\[120px\] {
-  max-width: 120px;
 }
 
 .flex-1 {
@@ -1259,10 +1236,6 @@ video {
   border-top-width: 1px;
 }
 
-.border-t-2 {
-  border-top-width: 2px;
-}
-
 .border-t-\[1px\] {
   border-top-width: 1px;
 }
@@ -1370,6 +1343,10 @@ video {
   background-image: url('https://static-nft.pancakeswap.com/mainnet/0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07/sleepy-1000.png');
 }
 
+.bg-degenApe1 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x8e311dB45B55DF68b7C1C8D01888a4C43986c60F/degen-ape-3536-1000.png');
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -1380,6 +1357,54 @@ video {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-hiccupBunny {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07/hiccup-1000.png');
+}
+
+.bg-braveTiger {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x6f1Dc8a50489C96B6c09bb2aEc28c4043fB1A802/3-d-brave-tigers-9231-1000.png');
+}
+
+.bg-pancakeSquad1 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x0a8901b0E25DEb55A87524f0cC164E9644020EBA/pancake-squad-3606-1000.png');
+}
+
+.bg-pancakeSquad2 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x0a8901b0E25DEb55A87524f0cC164E9644020EBA/pancake-squad-5789-1000.png');
+}
+
+.bg-liquidMonster1 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x0D464bDde2301C30871bB4C29bB7DD935f5a985C/liquid-monster-3229-1000.png');
+}
+
+.bg-liquidMonster2 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x0D464bDde2301C30871bB4C29bB7DD935f5a985C/liquid-monster-5878-1000.png');
+}
+
+.bg-liquidMonster3 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x0D464bDde2301C30871bB4C29bB7DD935f5a985C/liquid-monster-809-1000.png');
+}
+
+.bg-degenApe2 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x8e311dB45B55DF68b7C1C8D01888a4C43986c60F/degen-ape-5080-1000.png');
+}
+
+.bg-horrorApe1 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xAFc7647b584730694B9606511F11F423A0816eFf/horror-ape-club-1672-1000.png');
+}
+
+.bg-horrorApe2 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xAFc7647b584730694B9606511F11F423A0816eFf/horror-ape-club-2204-1000.png');
+}
+
+.bg-crossBosses {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x9ddc83be1e5254669bdb366941C746A86194D61b/cross-bosses-generation-0-6986-1000.png');
+}
+
+.bg-gamesterApe {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x4bd2a30435e6624CcDee4C60229250A84a2E4cD6/gamester-6052-1000.png');
 }
 
 .from-\[\#62419C\] {
@@ -1516,12 +1541,12 @@ video {
   padding-right: 1rem;
 }
 
-.pt-\[1px\] {
-  padding-top: 1px;
-}
-
 .pt-2 {
   padding-top: 0.5rem;
+}
+
+.pt-\[1px\] {
+  padding-top: 1px;
 }
 
 .text-left {
@@ -1585,12 +1610,12 @@ video {
   font-weight: 600;
 }
 
-.font-light {
-  font-weight: 300;
-}
-
 .leading-4 {
   line-height: 1rem;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
 }
 
 .leading-\[1\.1\] {
@@ -1607,10 +1632,6 @@ video {
 
 .leading-normal {
   line-height: 1.5;
-}
-
-.leading-6 {
-  line-height: 1.5rem;
 }
 
 .tracking-\[0\.03em\] {
@@ -1642,6 +1663,11 @@ video {
 }
 
 .text-\[\#7A6EAA\] {
+  --tw-text-opacity: 1;
+  color: rgb(122 110 170 / var(--tw-text-opacity));
+}
+
+.text-\[\#7a6eaa\] {
   --tw-text-opacity: 1;
   color: rgb(122 110 170 / var(--tw-text-opacity));
 }
@@ -1698,15 +1724,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#7a6eaa\] {
-  --tw-text-opacity: 1;
-  color: rgb(122 110 170 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .no-underline {
@@ -1810,24 +1827,9 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.after\:block::after {
-  content: var(--tw-content);
-  display: block;
-}
-
-.after\:pt-\[\]::after {
-  content: var(--tw-content);
-  padding-top: ;
-}
-
 .after\:pt-\[100\%\]::after {
   content: var(--tw-content);
   padding-top: 100%;
-}
-
-.after\:content-\[\]::after {
-  --tw-content: ;
-  content: var(--tw-content);
 }
 
 .hover\:flex:hover {

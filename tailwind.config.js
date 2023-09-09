@@ -108,6 +108,32 @@ module.exports = {
       backgroundImage: {
         bunnyStatic:
           "url('https://static-nft.pancakeswap.com/mainnet/0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07/sleepy-1000.png')",
+        degenApe1:
+          "url('https://static-nft.pancakeswap.com/mainnet/0x8e311dB45B55DF68b7C1C8D01888a4C43986c60F/degen-ape-3536-1000.png')",
+        hiccupBunny:
+          "url('https://static-nft.pancakeswap.com/mainnet/0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07/hiccup-1000.png')",
+        braveTiger:
+          "url('https://static-nft.pancakeswap.com/mainnet/0x6f1Dc8a50489C96B6c09bb2aEc28c4043fB1A802/3-d-brave-tigers-9231-1000.png')",
+        pancakeSquad1:
+          "url('https://static-nft.pancakeswap.com/mainnet/0x0a8901b0E25DEb55A87524f0cC164E9644020EBA/pancake-squad-3606-1000.png')",
+        pancakeSquad2:
+          "url('https://static-nft.pancakeswap.com/mainnet/0x0a8901b0E25DEb55A87524f0cC164E9644020EBA/pancake-squad-5789-1000.png')",
+        liquidMonster1:
+          "url('https://static-nft.pancakeswap.com/mainnet/0x0D464bDde2301C30871bB4C29bB7DD935f5a985C/liquid-monster-3229-1000.png')",
+        liquidMonster2:
+          "url('https://static-nft.pancakeswap.com/mainnet/0x0D464bDde2301C30871bB4C29bB7DD935f5a985C/liquid-monster-5878-1000.png')",
+        liquidMonster3:
+          "url('https://static-nft.pancakeswap.com/mainnet/0x0D464bDde2301C30871bB4C29bB7DD935f5a985C/liquid-monster-809-1000.png')",
+        degenApe2:
+          "url('https://static-nft.pancakeswap.com/mainnet/0x8e311dB45B55DF68b7C1C8D01888a4C43986c60F/degen-ape-5080-1000.png')",
+        horrorApe1:
+          "url('https://static-nft.pancakeswap.com/mainnet/0xAFc7647b584730694B9606511F11F423A0816eFf/horror-ape-club-1672-1000.png')",
+        horrorApe2:
+          "url('https://static-nft.pancakeswap.com/mainnet/0xAFc7647b584730694B9606511F11F423A0816eFf/horror-ape-club-2204-1000.png')",
+        crossBosses:
+          "url('https://static-nft.pancakeswap.com/mainnet/0x9ddc83be1e5254669bdb366941C746A86194D61b/cross-bosses-generation-0-6986-1000.png')",
+        gamesterApe:
+          "url('https://static-nft.pancakeswap.com/mainnet/0x4bd2a30435e6624CcDee4C60229250A84a2E4cD6/gamester-6052-1000.png')",
       },
     },
     boxShadow: {
