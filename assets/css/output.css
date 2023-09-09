@@ -738,6 +738,10 @@ video {
   top: 0px;
 }
 
+.top-\[-32px\] {
+  top: -32px;
+}
+
 .top-\[-50px\] {
   top: -50px;
 }
@@ -798,6 +802,11 @@ video {
 .mx-0\.5 {
   margin-left: 0.125rem;
   margin-right: 0.125rem;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .mx-3 {
@@ -890,6 +899,10 @@ video {
   margin-left: 18rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .mr-1 {
   margin-right: 0.25rem;
 }
@@ -900,6 +913,10 @@ video {
 
 .mr-4 {
   margin-right: 1rem;
+}
+
+.mr-auto {
+  margin-right: auto;
 }
 
 .mt-0 {
@@ -942,12 +959,12 @@ video {
   margin-top: 2rem;
 }
 
-.ml-auto {
-  margin-left: auto;
+.mb-\[26px\] {
+  margin-bottom: 26px;
 }
 
-.mr-auto {
-  margin-right: auto;
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .box-content {
@@ -994,6 +1011,10 @@ video {
   height: 3.5rem;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .h-2 {
   height: 0.5rem;
 }
@@ -1024,6 +1045,10 @@ video {
 
 .h-9 {
   height: 2.25rem;
+}
+
+.h-\[125px\] {
+  height: 125px;
 }
 
 .h-\[200\%\] {
@@ -1070,8 +1095,29 @@ video {
   height: 100vh;
 }
 
+.h-0 {
+  height: 0px;
+}
+
+.h-\[32px\] {
+  height: 32px;
+}
+
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.h-\[126px\] {
+  height: 126px;
+}
+
 .max-h-12 {
   max-height: 3rem;
+}
+
+.max-h-24 {
+  max-height: 6rem;
 }
 
 .max-h-64 {
@@ -1100,6 +1146,10 @@ video {
 
 .max-h-full {
   max-height: 100%;
+}
+
+.max-h-80 {
+  max-height: 20rem;
 }
 
 .min-h-\[300px\] {
@@ -1199,8 +1249,16 @@ video {
   width: 100vw;
 }
 
+.w-\[200px\] {
+  width: 200px;
+}
+
 .min-w-\[100\%\] {
   min-width: 100%;
+}
+
+.min-w-\[132px\] {
+  min-width: 132px;
 }
 
 .min-w-\[24px\] {
@@ -1247,6 +1305,10 @@ video {
   max-width: 968px;
 }
 
+.max-w-\[96px\] {
+  max-width: 96px;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -1255,11 +1317,27 @@ video {
   max-width: none;
 }
 
+.max-w-\[120px\] {
+  max-width: 120px;
+}
+
+.max-w-\[320px\] {
+  max-width: 320px;
+}
+
+.max-w-xs {
+  max-width: 20rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
 
 .flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.shrink-0 {
   flex-shrink: 0;
 }
 
@@ -1502,6 +1580,15 @@ video {
   row-gap: 0.625rem;
 }
 
+.gap-x-6 {
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+
+.gap-y-4 {
+  row-gap: 1rem;
+}
+
 .self-start {
   align-self: flex-start;
 }
@@ -1538,8 +1625,16 @@ video {
   overflow-y: scroll;
 }
 
+.text-ellipsis {
+  text-overflow: ellipsis;
+}
+
 .whitespace-nowrap {
   white-space: nowrap;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .rounded-2xl {
@@ -1574,6 +1669,15 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-e-lg {
+  border-start-end-radius: 0.5rem;
+  border-end-end-radius: 0.5rem;
+}
+
 .rounded-l-3xl {
   border-top-left-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
@@ -1584,6 +1688,16 @@ video {
   border-bottom-right-radius: 1.5rem;
 }
 
+.rounded-r-lg {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.rounded-s-lg {
+  border-start-start-radius: 0.5rem;
+  border-end-start-radius: 0.5rem;
+}
+
 .rounded-t-2xl {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
@@ -1592,6 +1706,15 @@ video {
 .rounded-t-\[32px\] {
   border-top-left-radius: 32px;
   border-top-right-radius: 32px;
+}
+
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.rounded-bl-\[56px\] {
+  border-bottom-left-radius: 56px;
 }
 
 .rounded-tl-\[32px\] {
@@ -1612,6 +1735,10 @@ video {
 
 .border-2 {
   border-width: 2px;
+}
+
+.border-4 {
+  border-width: 4px;
 }
 
 .border-y {
@@ -1635,6 +1762,10 @@ video {
   border-top-width: 1px;
 }
 
+.border-t-\[1px\] {
+  border-top-width: 1px;
+}
+
 .border-solid {
   border-style: solid;
 }
@@ -1654,9 +1785,19 @@ video {
   border-color: rgb(231 227 235 / var(--tw-border-opacity));
 }
 
+.border-\[\#d7caec\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(215 202 236 / var(--tw-border-opacity));
+}
+
 .border-\[\#e7e3eb\] {
   --tw-border-opacity: 1;
   border-color: rgb(231 227 235 / var(--tw-border-opacity));
+}
+
+.border-buttons-cyan {
+  --tw-border-opacity: 1;
+  border-color: rgb(30 199 211 / var(--tw-border-opacity));
 }
 
 .border-green-dot {
@@ -1669,9 +1810,14 @@ video {
   border-color: rgb(237 75 158 / var(--tw-border-opacity));
 }
 
-.border-\[\#d7caec\] {
+.border-white {
   --tw-border-opacity: 1;
-  border-color: rgb(215 202 236 / var(--tw-border-opacity));
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-t-\[\#e7e3eb\] {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(231 227 235 / var(--tw-border-opacity));
 }
 
 .bg-\[\#1fc7d4\] {
@@ -1728,6 +1874,11 @@ video {
   background-color: rgb(215 202 236 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#e7e3eb\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 227 235 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#eeeaf4\] {
   --tw-bg-opacity: 1;
   background-color: rgb(238 234 244 / var(--tw-bg-opacity));
@@ -1767,6 +1918,39 @@ video {
   background-color: rgb(39 39 42 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#fff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[linear-gradient\(139\.73deg\2c \#e5fdff\2c \#f3efff\)\] {
+  background-image: linear-gradient(139.73deg,#e5fdff,#f3efff);
+}
+
+.bg-bornBad {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x44d85770aEa263F9463418708125Cd95e308299B/banner-sm.png');
+}
+
+.bg-bornBadBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x44d85770aEa263F9463418708125Cd95e308299B/avatar.png');
+}
+
+.bg-gamesterA {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x4bd2a30435e6624CcDee4C60229250A84a2E4cD6/banner-sm.png');
+}
+
+.bg-gamesterABanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x4bd2a30435e6624CcDee4C60229250A84a2E4cD6/avatar.png');
+}
+
+.bg-goodFellas {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x59b39a2092cda9C590B1576EE5AA204a487e46e6/banner-sm.png');
+}
+
+.bg-goodFellasBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x59b39a2092cda9C590B1576EE5AA204a487e46e6/avatar.png');
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -1779,8 +1963,132 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-\[linear-gradient\(139\.73deg\2c \#e5fdff\2c \#f3efff\)\] {
-  background-image: linear-gradient(139.73deg,#e5fdff,#f3efff);
+.bg-lilPidg {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x611747CC4576aAb44f602a65dF3557150C214493/banner-sm.png');
+}
+
+.bg-lilPidgBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x611747CC4576aAb44f602a65dF3557150C214493/avatar.png');
+}
+
+.bg-moonPets {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xE32aE22Ec60E21980247B4bDAA16E9AEa265F919/banner-sm.png');
+}
+
+.bg-moonPetsBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xE32aE22Ec60E21980247B4bDAA16E9AEa265F919/avatar.png');
+}
+
+.bg-pancakeB {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07/banner-sm.png');
+}
+
+.bg-pancakeBBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07/avatar.png');
+}
+
+.bg-pancakeProtector {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x9F0A9654F84141B02a759Bea02B7Df49AB0CE0a0/banner-sm.png');
+}
+
+.bg-pancakeProtectorBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x9F0A9654F84141B02a759Bea02B7Df49AB0CE0a0/avatar.png');
+}
+
+.bg-pancakeSquad {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x0a8901b0E25DEb55A87524f0cC164E9644020EBA/banner-sm.png');
+}
+
+.bg-pancakeSquadBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x0a8901b0E25DEb55A87524f0cC164E9644020EBA/avatar.png');
+}
+
+.bg-pixelS {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x5F41842CFF838120271d772C6994F051d418a4aD/banner-sm.png');
+}
+
+.bg-pixelSBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x5F41842CFF838120271d772C6994F051d418a4aD/avatar.png');
+}
+
+.bg-planetZudd {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xC742d00736DEB5D85DD11DBa8c31b43b5A581d55/banner-sm.png');
+}
+
+.bg-planetZudd2 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xa61da6E5B8F61285d46C2ED65eBE0E7c2FA27044/banner-sm.png');
+}
+
+.bg-planetZuddBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xC742d00736DEB5D85DD11DBa8c31b43b5A581d55/avatar.png');
+}
+
+.bg-planetZuddBanner2 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xa61da6E5B8F61285d46C2ED65eBE0E7c2FA27044/avatar.png');
+}
+
+.bg-shitPunks {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x11304895f41C5A9b7fBFb0C4B011A92f1020EF96/banner-sm.png');
+}
+
+.bg-shitPunksBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x11304895f41C5A9b7fBFb0C4B011A92f1020EF96/avatar.png');
+}
+
+.bg-braveTiger {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x6f1Dc8a50489C96B6c09bb2aEc28c4043fB1A802/3-d-brave-tigers-9231-1000.png');
+}
+
+.bg-bunnyStatic {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07/sleepy-1000.png');
+}
+
+.bg-crossBosses {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x9ddc83be1e5254669bdb366941C746A86194D61b/cross-bosses-generation-0-6986-1000.png');
+}
+
+.bg-degenApe1 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x8e311dB45B55DF68b7C1C8D01888a4C43986c60F/degen-ape-3536-1000.png');
+}
+
+.bg-degenApe2 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x8e311dB45B55DF68b7C1C8D01888a4C43986c60F/degen-ape-5080-1000.png');
+}
+
+.bg-gamesterApe {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x4bd2a30435e6624CcDee4C60229250A84a2E4cD6/gamester-6052-1000.png');
+}
+
+.bg-hiccupBunny {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07/hiccup-1000.png');
+}
+
+.bg-horrorApe1 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xAFc7647b584730694B9606511F11F423A0816eFf/horror-ape-club-1672-1000.png');
+}
+
+.bg-horrorApe2 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xAFc7647b584730694B9606511F11F423A0816eFf/horror-ape-club-2204-1000.png');
+}
+
+.bg-liquidMonster1 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x0D464bDde2301C30871bB4C29bB7DD935f5a985C/liquid-monster-3229-1000.png');
+}
+
+.bg-liquidMonster2 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x0D464bDde2301C30871bB4C29bB7DD935f5a985C/liquid-monster-5878-1000.png');
+}
+
+.bg-liquidMonster3 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x0D464bDde2301C30871bB4C29bB7DD935f5a985C/liquid-monster-809-1000.png');
+}
+
+.bg-pancakeSquad1 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x0a8901b0E25DEb55A87524f0cC164E9644020EBA/pancake-squad-3606-1000.png');
+}
+
+.bg-pancakeSquad2 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x0a8901b0E25DEb55A87524f0cC164E9644020EBA/pancake-squad-5789-1000.png');
 }
 
 .from-\[\#53dee9\] {
@@ -1837,8 +2145,24 @@ video {
   background-size: 400% 400%;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
 .bg-clip-padding {
   background-clip: padding-box;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .fill-\[\#20C7D4\] {
@@ -1939,6 +2263,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.px-\[1px\] {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
 .py-0 {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -1974,6 +2303,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-\[3px\] {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -1990,12 +2324,20 @@ video {
   padding-bottom: 2rem;
 }
 
+.pb-\[3px\] {
+  padding-bottom: 3px;
+}
+
 .pl-0 {
   padding-left: 0px;
 }
 
 .pl-4 {
   padding-left: 1rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
 }
 
 .pr-2 {
@@ -2022,12 +2364,24 @@ video {
   padding-top: 1.5rem;
 }
 
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pt-\[1px\] {
+  padding-top: 1px;
+}
+
+.pb-\[100\%\] {
+  padding-bottom: 100%;
+}
+
+.pb-\[1px\] {
+  padding-bottom: 1px;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
 }
 
 .text-left {
@@ -2058,6 +2412,11 @@ video {
 
 .text-5xl {
   font-size: 3rem;
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
   line-height: 1;
 }
 
@@ -2097,11 +2456,6 @@ video {
   line-height: 1rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -2116,6 +2470,10 @@ video {
 
 .leading-4 {
   line-height: 1rem;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
 }
 
 .leading-\[1\.1\] {
@@ -2138,6 +2496,10 @@ video {
   line-height: 1.5;
 }
 
+.tracking-\[0\.03em\] {
+  letter-spacing: 0.03em;
+}
+
 .tracking-wide {
   letter-spacing: 0.025em;
 }
@@ -2157,12 +2519,27 @@ video {
   color: rgb(40 13 95 / var(--tw-text-opacity));
 }
 
+.text-\[\#280d5f\] {
+  --tw-text-opacity: 1;
+  color: rgb(40 13 95 / var(--tw-text-opacity));
+}
+
 .text-\[\#7645D9\] {
   --tw-text-opacity: 1;
   color: rgb(118 69 217 / var(--tw-text-opacity));
 }
 
+.text-\[\#7645d9\] {
+  --tw-text-opacity: 1;
+  color: rgb(118 69 217 / var(--tw-text-opacity));
+}
+
 .text-\[\#7A6EAA\] {
+  --tw-text-opacity: 1;
+  color: rgb(122 110 170 / var(--tw-text-opacity));
+}
+
+.text-\[\#7a6eaa\] {
   --tw-text-opacity: 1;
   color: rgb(122 110 170 / var(--tw-text-opacity));
 }
@@ -2247,14 +2624,8 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\#280d5f\] {
-  --tw-text-opacity: 1;
-  color: rgb(40 13 95 / var(--tw-text-opacity));
-}
-
-.text-\[\#7645d9\] {
-  --tw-text-opacity: 1;
-  color: rgb(118 69 217 / var(--tw-text-opacity));
+.text-inherit {
+  color: inherit;
 }
 
 .no-underline {
@@ -2271,6 +2642,10 @@ video {
 }
 
 .opacity-100 {
+  opacity: 1;
+}
+
+.opacity-\[1\] {
   opacity: 1;
 }
 
@@ -2299,6 +2674,11 @@ video {
 .shadow-\[\#D7DBDC\] {
   --tw-shadow-color: #D7DBDC;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .outline-0 {
@@ -2343,6 +2723,12 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .delay-0 {
   transition-delay: 0s;
 }
@@ -2369,6 +2755,16 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.after\:block::after {
+  content: var(--tw-content);
+  display: block;
+}
+
+.after\:pt-\[100\%\]::after {
+  content: var(--tw-content);
+  padding-top: 100%;
 }
 
 .hover\:flex:hover {
@@ -2510,6 +2906,10 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+.hover\:opacity-60:hover {
+  opacity: 0.6;
 }
 
 .hover\:shadow-\[0_0_0_0\.2px_\#7645d9_\2c _0_0_0_4px_\#A586E4\]:hover {
@@ -2789,6 +3189,10 @@ video {
     visibility: visible;
   }
 
+  .screen370\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .screen370\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -2797,6 +3201,11 @@ video {
   .screen370\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .screen370\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 
@@ -2839,6 +3248,10 @@ video {
 
   .screen576\:max-w-\[360px\] {
     max-width: 360px;
+  }
+
+  .screen576\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .screen576\:grid-cols-\[1fr\2c _1fr\] {
@@ -2910,6 +3323,10 @@ video {
     display: flex;
   }
 
+  .screen852\:grid {
+    display: grid;
+  }
+
   .screen852\:hidden {
     display: none;
   }
@@ -2960,8 +3377,16 @@ video {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
+  .screen852\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .screen852\:grid-cols-\[repeat\(3\2c _auto\)\] {
     grid-template-columns: repeat(3, auto);
+  }
+
+  .screen852\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .screen852\:flex-row {
@@ -3049,6 +3474,11 @@ video {
     padding-bottom: 3rem;
   }
 
+  .screen968\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .screen968\:text-\[40px\] {
     font-size: 40px;
   }
@@ -3056,6 +3486,10 @@ video {
   .screen968\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .screen968\:leading-4 {
+    line-height: 1rem;
   }
 }
 
