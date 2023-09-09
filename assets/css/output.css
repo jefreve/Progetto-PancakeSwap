@@ -1058,6 +1058,10 @@ video {
   height: 100vh;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .max-h-12 {
   max-height: 3rem;
 }
@@ -1185,14 +1189,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-24 {
-  width: 6rem;
-}
-
-.w-36 {
-  width: 9rem;
 }
 
 .min-w-\[100\%\] {
@@ -1421,10 +1417,6 @@ video {
   flex-wrap: wrap;
 }
 
-.flex-nowrap {
-  flex-wrap: nowrap;
-}
-
 .items-start {
   align-items: flex-start;
 }
@@ -1483,6 +1475,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .gap-x-2 {
@@ -2021,6 +2017,10 @@ video {
   font-family: Kanit, sans-serif;
 }
 
+.font-\[Kanit\2c sans-serif\] {
+  font-family: Kanit,sans-serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -2405,6 +2405,11 @@ video {
   background-color: rgb(244 248 248 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-slate-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
 .hover\:text-\[\#0098a1\]:hover {
   --tw-text-opacity: 1;
   color: rgb(0 152 161 / var(--tw-text-opacity));
@@ -2448,6 +2453,11 @@ video {
 .hover\:text-\[\#F8FAFC\]:hover {
   --tw-text-opacity: 1;
   color: rgb(248 250 252 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#7645d9\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(118 69 217 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -2742,16 +2752,6 @@ video {
   }
 }
 
-@media (min-width: 500px) {
-  .screen500\:flex-wrap {
-    flex-wrap: wrap;
-  }
-
-  .screen500\:flex-nowrap {
-    flex-wrap: nowrap;
-  }
-}
-
 @media (min-width: 576px) {
   .screen576\:visible {
     visibility: visible;
@@ -2882,8 +2882,8 @@ video {
     max-height: 100vh;
   }
 
-  .screen852\:w-\[482px\] {
-    width: 482px;
+  .screen852\:w-\[510px\] {
+    width: 510px;
   }
 
   .screen852\:w-\[60\%\] {
@@ -2896,26 +2896,6 @@ video {
 
   .screen852\:w-full {
     width: 100%;
-  }
-
-  .screen852\:w-\[484px\] {
-    width: 484px;
-  }
-
-  .screen852\:w-\[486px\] {
-    width: 486px;
-  }
-
-  .screen852\:w-\[490px\] {
-    width: 490px;
-  }
-
-  .screen852\:w-\[520px\] {
-    width: 520px;
-  }
-
-  .screen852\:w-\[510px\] {
-    width: 510px;
   }
 
   .screen852\:flex-1 {
