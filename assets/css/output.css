@@ -680,6 +680,11 @@ video {
   margin-right: 0.125rem;
 }
 
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -693,21 +698,6 @@ video {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
 }
 
 .mb-1 {
@@ -1099,10 +1089,6 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -1354,6 +1340,14 @@ video {
   background-color: rgb(39 39 42 / var(--tw-bg-opacity));
 }
 
+.bg-goodFellas {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x59b39a2092cda9C590B1576EE5AA204a487e46e6/banner-sm.png');
+}
+
+.bg-goodFellasBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x59b39a2092cda9C590B1576EE5AA204a487e46e6/avatar.png');
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -1366,12 +1360,92 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.bg-lilPidg {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x611747CC4576aAb44f602a65dF3557150C214493/banner-sm.png');
+}
+
+.bg-lilPidgBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x611747CC4576aAb44f602a65dF3557150C214493/avatar.png');
+}
+
+.bg-moonPets {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xE32aE22Ec60E21980247B4bDAA16E9AEa265F919/banner-sm.png');
+}
+
+.bg-moonPetsBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xE32aE22Ec60E21980247B4bDAA16E9AEa265F919/avatar.png');
+}
+
+.bg-pancakeProtector {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x9F0A9654F84141B02a759Bea02B7Df49AB0CE0a0/banner-sm.png');
+}
+
+.bg-pancakeProtectorBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x9F0A9654F84141B02a759Bea02B7Df49AB0CE0a0/avatar.png');
+}
+
 .bg-planetZudd {
   background-image: url('https://static-nft.pancakeswap.com/mainnet/0xC742d00736DEB5D85DD11DBa8c31b43b5A581d55/banner-sm.png');
 }
 
+.bg-planetZudd2 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xa61da6E5B8F61285d46C2ED65eBE0E7c2FA27044/banner-sm.png');
+}
+
 .bg-planetZuddBanner {
   background-image: url('https://static-nft.pancakeswap.com/mainnet/0xC742d00736DEB5D85DD11DBa8c31b43b5A581d55/avatar.png');
+}
+
+.bg-planetZuddBanner2 {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xa61da6E5B8F61285d46C2ED65eBE0E7c2FA27044/avatar.png');
+}
+
+.bg-pancakeSquad {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x0a8901b0E25DEb55A87524f0cC164E9644020EBA/banner-sm.png');
+}
+
+.bg-pancakeSquadBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x0a8901b0E25DEb55A87524f0cC164E9644020EBA/avatar.png');
+}
+
+.bg-pancakeB {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07/banner-sm.png');
+}
+
+.bg-pancakeBBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0xDf7952B35f24aCF7fC0487D01c8d5690a60DBa07/avatar.png');
+}
+
+.bg-gamesterA {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x4bd2a30435e6624CcDee4C60229250A84a2E4cD6/banner-sm.png');
+}
+
+.bg-gamesterABanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x4bd2a30435e6624CcDee4C60229250A84a2E4cD6/avatar.png');
+}
+
+.bg-shitPunks {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x11304895f41C5A9b7fBFb0C4B011A92f1020EF96/banner-sm.png');
+}
+
+.bg-shitPunksBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x11304895f41C5A9b7fBFb0C4B011A92f1020EF96/avatar.png');
+}
+
+.bg-pixelS {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x5F41842CFF838120271d772C6994F051d418a4aD/banner-sm.png');
+}
+
+.bg-pixelSBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x5F41842CFF838120271d772C6994F051d418a4aD/avatar.png');
+}
+
+.bg-bornBad {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x44d85770aEa263F9463418708125Cd95e308299B/banner-sm.png');
+}
+
+.bg-bornBadBanner {
+  background-image: url('https://static-nft.pancakeswap.com/mainnet/0x44d85770aEa263F9463418708125Cd95e308299B/avatar.png');
 }
 
 .from-\[\#62419C\] {
@@ -1590,6 +1664,10 @@ video {
   line-height: 1rem;
 }
 
+.leading-6 {
+  line-height: 1.5rem;
+}
+
 .leading-\[1\.1\] {
   line-height: 1.1;
 }
@@ -1604,18 +1682,6 @@ video {
 
 .leading-normal {
   line-height: 1.5;
-}
-
-.leading-3 {
-  line-height: .75rem;
-}
-
-.leading-5 {
-  line-height: 1.25rem;
-}
-
-.leading-6 {
-  line-height: 1.5rem;
 }
 
 .tracking-\[0\.03em\] {
@@ -1944,30 +2010,6 @@ video {
   text-decoration-line: underline;
 }
 
-.hover\:opacity-10:hover {
-  opacity: 0.1;
-}
-
-.hover\:opacity-75:hover {
-  opacity: 0.75;
-}
-
-.hover\:opacity-80:hover {
-  opacity: 0.8;
-}
-
-.hover\:opacity-90:hover {
-  opacity: 0.9;
-}
-
-.hover\:opacity-30:hover {
-  opacity: 0.3;
-}
-
-.hover\:opacity-50:hover {
-  opacity: 0.5;
-}
-
 .hover\:opacity-60:hover {
   opacity: 0.6;
 }
@@ -2141,14 +2183,6 @@ video {
 }
 
 @media (min-width: 370px) {
-  .screen370\:grid {
-    display: grid;
-  }
-
-  .screen370\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
   .screen370\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -2189,12 +2223,12 @@ video {
     height: 5rem;
   }
 
-  .screen576\:grid-cols-\[repeat\(5\2c _auto\)\] {
-    grid-template-columns: repeat(5, auto);
-  }
-
   .screen576\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .screen576\:grid-cols-\[repeat\(5\2c _auto\)\] {
+    grid-template-columns: repeat(5, auto);
   }
 
   .screen576\:gap-4 {
