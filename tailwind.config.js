@@ -36,6 +36,7 @@ module.exports = {
         topLeft: "topLeft 3s ease-in-out 0s infinite normal none running",
         bottomPancake2right:
           "bottomPancake2right 3s ease-in-out 0.33s infinite normal none running",
+        connectWallet: "connectWallet 3s ease infinite",
       },
     },
     boxShadow: {
@@ -75,6 +76,10 @@ module.exports = {
       bottomPancake2right: {
         "0%, 100%": { transform: "translate(0px, 0px)" },
         "50%": { transform: "translate(6px, 5px)" },
+      },
+      connectWallet: {
+        "0%, 100%": { "background-position": "50%, 0%" },
+        "50%": { "background-position": "50%, 100%" },
       },
     },
   },

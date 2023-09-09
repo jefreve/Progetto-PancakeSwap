@@ -8,5 +8,484 @@
     <link rel="stylesheet" href="../../assets/css/output.css" />
     <title>Connect Wallet Modal</title>
   </head>
-  <body></body>
+  <body class="bg-zinc-800">
+    <div
+      class="flex flex-col justify-center items-center fixed inset-0 z-[99] translate-x-0"
+    >
+      <div
+        id="connect-wallet-modal-container"
+        class="absolute z-[100] min-h-[300px] max-w-none border border-[#e7e3eb] bg-white w-full overflow-visible rounded-none rounded-tl-[32px] rounded-tr-[32px] screen852:w-auto bottom-0 screen852:bottom-auto screen852:rounded-[32px] screen852:max-h-screen"
+      >
+        <div class="overflow-visible">
+          <div class="relative">
+            <div
+              class="relative flex mb-0 w-full screen852:h-[490px] screen968:max-w-[792px] z-[100]"
+            >
+              <div class="absolute top-[-50px]">
+                <div
+                  class="flex border-b-0 pb-0 pt-4 px-1 screen370:px-4 overflow-x-auto"
+                >
+                  <div class="flex flex-grow-0 justify-between">
+                    <button
+                      id="cw-btn-modal"
+                      class="inline-flex justify-center flex-grow p-2 border-0 rounded-t-2xl cursor-pointer outline-0 font-semibold text-base bg-[#eeeaf4] text-[#7A6EAA]"
+                    >
+                      Connect Wallet
+                    </button>
+                    <button
+                      id="whats-a-wallet-btn-modal"
+                      class="inline-flex justify-center flex-grow p-2 border-0 rounded-t-2xl cursor-pointer outline-0 font-semibold text-base bg-[#7A6EAA] text-white"
+                    >
+                      What’s a Web3 Wallet?
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- left window -->
+              <div
+                id="left-window-cw"
+                class="flex relative z-[100] w-full rounded-3xl bg-gradient-to-br from-[#f2ecf2] to-[#e8f2f6]"
+              >
+                <!-- left section  -->
+                <div
+                  class="font-body flex flex-col bg-white py-8 rounded-3xl max-w-full screen576:max-w-[360px] screen968:max-w-[408px] z-[100]"
+                >
+                  <div class="">
+                    <div class="top-section px-12">
+                      <h4
+                        class="text-black text-base screen968:text-xl font-semibold leading-[1.1]"
+                      >
+                        Connect Wallet
+                      </h4>
+                      <div
+                        class="text-[#7A6EAA] text-sm font-normal pt-6 pb-8 leading-[21px] antialiased"
+                      >
+                        <p>
+                          Start by connecting with one of the wallets below. Be
+                          sure to store your private keys or seed phrase
+                          securely. Never share them with anyone.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div
+                      class="bottom-section grid grid-cols-4 gap-y-2.5 gap-x-2 screen968:grid-cols-3 screen576:grid-cols-2 screen576:gap-y-6 screen576:gap-x-4 pb-3 px-4 screen576:px-12"
+                    >
+                      <div
+                        class="wallet-type relative flex flex-col justify-start items-center bg-transparent h-auto rounded-2xl cursor-pointer font-semibold"
+                      >
+                        <div
+                          class="bg-gradient-to-b from-[#53dee9] to-[#7645d9] bg-[size:400%_400%] animate-connectWallet rounded-xl p-0.5 mb-1"
+                        >
+                          <div
+                            class="relative flex justify-center items-center h-[50px] w-[50px] rounded-[13px] bg-[#f6f6f6]"
+                          >
+                            <div
+                              class="block relative w-full max-h-[50px] max-w-[50px]"
+                            >
+                              <img
+                                class="h-full w-full max-w-full"
+                                src="./assets/metamask.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          class="font-normal text-[#280D5F] text-xs text-center"
+                        >
+                          Metamask
+                        </div>
+                      </div>
+
+                      <div
+                        class="wallet-type relative flex flex-col justify-start items-center bg-transparent h-auto rounded-2xl cursor-pointer font-semibold"
+                      >
+                        <div
+                          class="bg-gradient-to-b from-[#53dee9] to-[#7645d9] bg-[size:400%_400%] animate-connectWallet rounded-xl p-0.5 mb-1"
+                        >
+                          <div
+                            class="relative flex justify-center items-center h-[50px] w-[50px] rounded-[13px] bg-[#f6f6f6]"
+                          >
+                            <div
+                              class="flex items-center justify-center relative w-full max-h-[50px] max-w-[50px]"
+                            >
+                              <svg
+                                viewBox="0 0 24 24"
+                                width="24"
+                                height="24"
+                                color="textSubtle"
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="fill-[#7A6EAA]"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M17 4C18.5 4 19 4.5 19 6L19 8C20.1046 8 21 8.89543 21 10L21 17C21 19 20 20 17.999 20H6C4 20 3 19 3 17L3 7C3 5.5 4.5 4 6 4L17 4ZM5 7C5 6.44772 5.44772 6 6 6L19 6L19 8L6 8C5.44772 8 5 7.55229 5 7ZM17 16C18 16 19.001 15 19 14C18.999 13 18 12 17 12C16 12 15 13 15 14C15 15 16 16 17 16Z"
+                                ></path>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          class="font-normal text-[#280D5F] text-xs text-center"
+                        >
+                          Injected
+                        </div>
+                      </div>
+
+                      <div
+                        class="wallet-type relative flex flex-col justify-start items-center bg-transparent h-auto rounded-2xl cursor-pointer font-semibold"
+                      >
+                        <div class="rounded-xl p-0.5 mb-1">
+                          <div
+                            class="relative flex justify-center items-center h-[50px] w-[50px] rounded-[13px] bg-[#f6f6f6]"
+                          >
+                            <div
+                              class="block relative w-full max-h-[50px] max-w-[50px]"
+                            >
+                              <img
+                                class="h-full w-full max-w-full"
+                                src="./assets/binance.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          class="font-normal text-[#280D5F] text-xs text-center"
+                        >
+                          Binance Wallet
+                        </div>
+                      </div>
+
+                      <div
+                        class="wallet-type relative flex flex-col justify-start items-center bg-transparent h-auto rounded-2xl cursor-pointer font-semibold"
+                      >
+                        <div class="rounded-xl p-0.5 mb-1">
+                          <div
+                            class="relative flex justify-center items-center h-[50px] w-[50px] rounded-[13px] bg-[#f6f6f6]"
+                          >
+                            <div
+                              class="block relative w-full max-h-[50px] max-w-[50px]"
+                            >
+                              <img
+                                class="h-full w-full max-w-full"
+                                src="./assets/coinbase.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          class="font-normal text-[#280D5F] text-xs text-center"
+                        >
+                          Coinbase Wallet
+                        </div>
+                      </div>
+
+                      <div
+                        class="wallet-type relative flex flex-col justify-start items-center bg-transparent h-auto rounded-2xl cursor-pointer font-semibold"
+                      >
+                        <div class="rounded-xl p-0.5 mb-1">
+                          <div
+                            class="relative flex justify-center items-center h-[50px] w-[50px] rounded-[13px] bg-[#f6f6f6]"
+                          >
+                            <div
+                              class="block relative w-full max-h-[50px] max-w-[50px]"
+                            >
+                              <img
+                                class="h-full w-full max-w-full"
+                                src="./assets/trust.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          class="font-normal text-[#280D5F] text-xs text-center"
+                        >
+                          Trust Wallet
+                        </div>
+                      </div>
+
+                      <div
+                        class="wallet-type relative flex flex-col justify-start items-center bg-transparent h-auto rounded-2xl cursor-pointer font-semibold"
+                      >
+                        <div class="rounded-xl p-0.5 mb-1">
+                          <div
+                            class="relative flex justify-center items-center h-[50px] w-[50px] rounded-[13px] bg-[#f6f6f6]"
+                          >
+                            <div
+                              class="block relative w-full max-h-[50px] max-w-[50px]"
+                            >
+                              <img
+                                class="h-full w-full max-w-full"
+                                src="./assets/walletconnect.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          class="font-normal text-[#280D5F] text-xs text-center"
+                        >
+                          WalletConnect
+                        </div>
+                      </div>
+
+                      <div
+                        class="wallet-type relative flex flex-col justify-start items-center bg-transparent h-auto rounded-2xl cursor-pointer font-semibold"
+                      >
+                        <div class="rounded-xl p-0.5 mb-1">
+                          <div
+                            class="relative flex justify-center items-center h-[50px] w-[50px] rounded-[13px] bg-[#f6f6f6]"
+                          >
+                            <div
+                              class="block relative w-full max-h-[50px] max-w-[50px]"
+                            >
+                              <img
+                                class="h-full w-full max-w-full"
+                                src="./assets/opera.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          class="font-normal text-[#280D5F] text-xs text-center"
+                        >
+                          Opera Wallet
+                        </div>
+                      </div>
+
+                      <div
+                        class="wallet-type relative flex flex-col justify-start items-center bg-transparent h-auto rounded-2xl cursor-pointer font-semibold"
+                      >
+                        <div class="rounded-xl p-0.5 mb-1">
+                          <div
+                            class="relative flex justify-center items-center h-[50px] w-[50px] rounded-[13px] bg-[#f6f6f6]"
+                          >
+                            <div
+                              class="block relative w-full max-h-[50px] max-w-[50px]"
+                            >
+                              <img
+                                class="h-full w-full max-w-full"
+                                src="./assets/brave.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          class="font-normal text-[#280D5F] text-xs text-center"
+                        >
+                          Brave Wallet
+                        </div>
+                      </div>
+
+                      <div
+                        class="wallet-type relative flex flex-col justify-start items-center bg-transparent h-auto rounded-2xl cursor-pointer font-semibold"
+                      >
+                        <div class="rounded-xl p-0.5 mb-1">
+                          <div
+                            class="relative flex justify-center items-center h-[50px] w-[50px] rounded-[13px] bg-[#f6f6f6]"
+                          >
+                            <div
+                              class="flex items-center justify-center relative w-full max-h-[50px] max-w-[50px]"
+                            >
+                              <svg
+                                viewBox="0 0 24 24"
+                                color="text"
+                                width="20px"
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="sc-bcPKhP cvmRst"
+                              >
+                                <path
+                                  d="M6 10C4.9 10 4 10.9 4 12C4 13.1 4.9 14 6 14C7.1 14 8 13.1 8 12C8 10.9 7.1 10 6 10ZM18 10C16.9 10 16 10.9 16 12C16 13.1 16.9 14 18 14C19.1 14 20 13.1 20 12C20 10.9 19.1 10 18 10ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10Z"
+                                ></path>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          class="font-normal text-[#280D5F] text-xs text-center"
+                        >
+                          More
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- right section  -->
+                <div
+                  class="font-body hidden screen576:flex flex-1 justify-center items-center flex-col mx-6"
+                >
+                  <div class="flex flex-col items-center text-center gap-6">
+                    <h1
+                      class="text-[#7645D9] text-xl leading-[1.1] font-semibold"
+                    >
+                      Haven't got a wallet yet?
+                    </h1>
+
+                    <div class="relative max-h-[178px] max-w-[198px] w-full">
+                      <img
+                        class="h-full w-full max-w-full"
+                        src="./assets/wallet_intro_bunny.png"
+                        alt=""
+                      />
+                    </div>
+
+                    <button
+                      type="button"
+                      class="flex font-semibold justify-center items-center whitespace-nowrap box-content h-12 w-fit py-0 px-6 mt-6 rounded-2xl text-base leading-4 outline-0 bg-[#7A6EAA] hover:bg-[#A19BC5] text-white hover:text-[#F8FAFC] dark:text-buttons-dark-text border-0 cursor-pointer tracking-wide opacity-100 hover:underline dark:hover:bg-[#2D8F99] dark:hover:text-[#1E1A28] shadow-button shadow-[#4F4878] hover:shadow-[#8483A4] transition-colors duration-200"
+                    >
+                      Learn How to Connect
+                      <svg
+                        viewBox="0 0 24 24"
+                        color="currentColor"
+                        width="20px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="ml-1 flex-shrink-0"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M18 19H6C5.45 19 5 18.55 5 18V6C5 5.45 5.45 5 6 5H11C11.55 5 12 4.55 12 4C12 3.45 11.55 3 11 3H5C3.89 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V13C21 12.45 20.55 12 20 12C19.45 12 19 12.45 19 13V18C19 18.55 18.55 19 18 19ZM14 4C14 4.55 14.45 5 15 5H17.59L8.46 14.13C8.07 14.52 8.07 15.15 8.46 15.54C8.85 15.93 9.48 15.93 9.87 15.54L19 6.41V9C19 9.55 19.45 10 20 10C20.55 10 21 9.55 21 9V4C21 3.45 20.55 3 20 3H15C14.45 3 14 3.45 14 4Z"
+                        ></path>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- right window  -->
+              <div
+                id="right-window-cw"
+                class="hidden relative z-[100] w-full rounded-3xl bg-gradient-to-br from-[#f2ecf2] to-[#e8f2f6]"
+              >
+                <!-- right section  -->
+
+                <div
+                  class="flex flex-col items-center text-center gap-6 w-full my-12 mx-auto"
+                >
+                  <!-- swiper 1  -->
+                  <div
+                    id="first-step-in-defi"
+                    class="swipers block relative w-full mx-0 p-0"
+                  >
+                    <div class="relative w-full h-full flex box-content">
+                      <div
+                        class="block relative w-[792px] flex-shrink-0 h-full"
+                      >
+                        <h2
+                          class="text-[#7645D9] text-xl leading-[1.1] font-semibold"
+                        >
+                          Your first step in the DeFi world
+                        </h2>
+
+                        <div
+                          class="relative max-h-[178px] max-w-[198px] w-full m-auto"
+                        >
+                          <img
+                            class="h-full w-full max-w-full"
+                            src="./assets/wallet_intro_bunny.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <div
+                          class="max-w-[368px] text-[#7A6EAA] text-sm font-normal m-auto antialiased"
+                        >
+                          A Web3 Wallet allows you to send and receive crypto
+                          assets like bitcoin, BNB, ETH, NFTs and much more.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- swiper 2  -->
+                  <div
+                    id="login-using-wallet"
+                    class="swipers hidden relative w-full mx-0 p-0"
+                  >
+                    <div class="relative w-full h-full flex box-content">
+                      <div
+                        class="block relative w-[792px] flex-shrink-0 h-full"
+                      >
+                        <h2
+                          class="text-[#7645D9] text-xl leading-[1.1] font-semibold"
+                        >
+                          Login using a wallet connection
+                        </h2>
+
+                        <div
+                          class="relative max-h-[178px] max-w-[198px] w-full m-auto"
+                        >
+                          <img
+                            class="h-full w-full max-w-full"
+                            src="./assets/world_lock.png"
+                            alt=""
+                          />
+                        </div>
+
+                        <div
+                          class="max-w-[368px] text-[#7A6EAA] text-sm font-normal m-auto antialiased"
+                        >
+                          Instead of setting up new accounts and passwords for
+                          every website, simply set up your wallet in one go,
+                          and connect it to your favorite DApps.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- left and right selectors for swiper -->
+                  <div class="flex">
+                    <div id="left-swiper-selector" class="cursor-pointer p-1">
+                      <div class="bg-[#7645d9] rounded-l-3xl w-14 h-2"></div>
+                    </div>
+                    <div id="right-swiper-selector" class="cursor-pointer p-1">
+                      <div class="bg-[#d7caec] rounded-r-3xl w-14 h-2"></div>
+                    </div>
+                  </div>
+
+                  <button
+                    type="button"
+                    class="relative flex font-semibold justify-center items-center whitespace-nowrap box-content h-12 w-fit py-0 px-6 rounded-2xl text-base leading-4 outline-0 bg-[#7A6EAA] hover:bg-[#A19BC5] text-white hover:text-[#F8FAFC] dark:text-buttons-dark-text border-0 cursor-pointer tracking-wide opacity-100 hover:underline dark:hover:bg-[#2D8F99] dark:hover:text-[#1E1A28] shadow-button shadow-[#4F4878] hover:shadow-[#8483A4] transition-colors duration-200"
+                  >
+                    Learn How to Connect
+                    <svg
+                      viewBox="0 0 24 24"
+                      color="currentColor"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="ml-1 flex-shrink-0"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M18 19H6C5.45 19 5 18.55 5 18V6C5 5.45 5.45 5 6 5H11C11.55 5 12 4.55 12 4C12 3.45 11.55 3 11 3H5C3.89 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V13C21 12.45 20.55 12 20 12C19.45 12 19 12.45 19 13V18C19 18.55 18.55 19 18 19ZM14 4C14 4.55 14.45 5 15 5H17.59L8.46 14.13C8.07 14.52 8.07 15.15 8.46 15.54C8.85 15.93 9.48 15.93 9.87 15.54L19 6.41V9C19 9.55 19.45 10 20 10C20.55 10 21 9.55 21 9V4C21 3.45 20.55 3 20 3H15C14.45 3 14 3.45 14 4Z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
 </html>

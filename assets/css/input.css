@@ -48,7 +48,10 @@
   .switch:checked + .slider {
     left: calc(100% - 29px);
   }
-  #switch-selected {
-    background-color: #32d0aa;
+  :root {
+    --vh: 5.12px;
+  }
+  #connect-wallet-modal-container {
+    max-height: calc(var(--vh, 1vh) * 100);
   }
 }
