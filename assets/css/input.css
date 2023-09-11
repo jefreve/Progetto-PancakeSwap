@@ -77,6 +77,25 @@
     grid-area: five;
   }
 
+  .numeric-animation {
+    font-size: 40px;
+    font-weight: bold;
+    transition: all 1ms ease;
+  }
+
+  .win-millions-card-1 {
+    transform: rotate(-2.36deg);
+  }
+  .win-millions-card-2 {
+    transform: rotate(1.43deg);
+  }
+
+  @media (max-width: 852px) {
+    #settings-modal {
+      bottom: 0%;
+    }
+  }
+
   @media (max-width: 852px) {
     #settings-modal {
       bottom: 0%;
