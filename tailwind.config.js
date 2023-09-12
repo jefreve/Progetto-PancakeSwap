@@ -114,7 +114,7 @@ module.exports = {
         stonksFloating:
           "stonksFloating 3s ease-in-out 0.66s infinite normal none running",
         folderFloating:
-          "stonksFloating 3s ease-in-out 0.33s infinite normal none running",
+          "folderFloating 3s ease-in-out 0.33s infinite normal none running",
         bounce: "duration-100 ease-in-out delay-0 infinite",
         topLeft: "topLeft 3s ease-in-out 0s infinite normal none running",
         bottomPancake2right:
