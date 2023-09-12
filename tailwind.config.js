@@ -103,6 +103,10 @@ module.exports = {
           "url('https://static-nft.pancakeswap.com/mainnet/0x9ddc83be1e5254669bdb366941C746A86194D61b/cross-bosses-generation-0-6986-1000.png')",
         gamesterApe:
           "url('https://static-nft.pancakeswap.com/mainnet/0x4bd2a30435e6624CcDee4C60229250A84a2E4cD6/gamester-6052-1000.png')",
+        littleGhost:
+          "url('https://static-nft.pancakeswap.com/mainnet/0x98F606A4cdDE68b9f68732D21fb9bA8B5510eE48/little-ghosts-2100-1000.png')",
+        cactiClub:
+          "url('https://static-nft.pancakeswap.com/mainnet/0x9432e72f68614fFdD3BA82616AC59e878284Aac4/cacti-club-0172-1000.png')",
       },
       animation: {
         pieFloating:
