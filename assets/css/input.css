@@ -95,10 +95,4 @@
       bottom: 0%;
     }
   }
-
-  @media (max-width: 852px) {
-    #settings-modal {
-      bottom: 0%;
-    }
-  }
 }

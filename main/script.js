@@ -211,10 +211,23 @@ const connectWalletBtnNavbar = document.getElementById(
   "connect-wallet-button-navbar"
 );
 const connectBtnNavbar = document.getElementById("connect-button-navbar");
+const connectWalletBtnMoonPancakes = document.getElementById("wallet-btn");
+const connectWalletBtnStartInSeconds = document.getElementById(
+  "start-in-seconds-button"
+);
+
 const modalBgConnectWallet = document.getElementById("modal-bg-connect-wallet");
 
 connectWalletBtnNavbar.addEventListener("click", connectWalletModalAppear);
+connectWalletBtnMoonPancakes.addEventListener(
+  "click",
+  connectWalletModalAppear
+);
 connectBtnNavbar.addEventListener("click", connectWalletModalAppear);
+connectWalletBtnStartInSeconds.addEventListener(
+  "click",
+  connectWalletModalAppear
+);
 
 function connectWalletModalAppear() {
   connectWalletModal.classList.add("flex");
@@ -256,6 +269,7 @@ function removeModalConnectWallet() {
   connectWalletModal.classList.remove("flex");
   connectWalletModal.classList.add("hidden");
   modalBgConnectWallet.classList.add("hidden");
+
   clearInterval(swipersInterval);
   resetModalInitialView();
 }

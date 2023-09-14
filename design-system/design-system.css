@@ -9,13 +9,14 @@ body {
   background-color: #7ac7ce;
   display: flex;
   gap: 1rem;
+  margin: auto;
 }
 body .column-container {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   height: 100%;
-  width: 33%;
+  width: 48%;
 }
 body .column-container .design-element {
   background-color: #fefefe;
@@ -38,10 +39,12 @@ body .column1 .logos,
 body .column1 .button-styles {
   height: 35vh;
   width: 100%;
+  padding: 20px;
 }
 body .column1 .icons {
   height: 20vh;
   width: 100%;
+  padding: 24px;
 }
 body .column1 .icons svg {
   margin: 25px 15px 0 0;
@@ -56,11 +59,6 @@ body .button-styles p {
   font-size: 16px;
   display: flex;
   width: 100%;
-}
-body .button-styles #lead-title {
-  position: relative;
-  left: 12rem;
-  bottom: 10.2rem;
 }
 body .button-styles #top-button,
 body .button-styles #top-button-v2 {
@@ -110,16 +108,6 @@ body .button-styles #predict-button svg {
   fill: white;
   flex-shrink: 0;
 }
-body .button-styles #predict-button {
-  position: relative;
-  left: 13rem;
-  bottom: 10.65rem;
-}
-body .button-styles #lead-button {
-  position: relative;
-  left: 12.5rem;
-  bottom: 10.65rem;
-}
 body .logos {
   flex-direction: column;
   gap: 0.75rem;
@@ -141,7 +129,7 @@ body .logos p {
 body .brand-colors {
   display: flex;
   flex-direction: column;
-  height: 42vh;
+  height: 37.5vh;
 }
 body .brand-colors h1 {
   padding-bottom: 5px;
@@ -313,8 +301,9 @@ body .column2 {
 }
 body .column2 .typography {
   flex-grow: 1;
-  height: 50vh;
+  height: 54vh;
   width: 100%;
+  padding: 24px;
 }
 body .column2 .typography {
   overflow: hidden;
@@ -377,4 +366,11 @@ body .column3 {
 }
 body .column3 .components {
   height: 95vh;
-}/*# sourceMappingURL=design-system.css.map */
+}
+
+#logos {
+  align-items: center;
+  padding: 24px;
+}
+
+/*# sourceMappingURL=design-system.css.map */
